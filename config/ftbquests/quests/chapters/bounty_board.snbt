@@ -1,0 +1,39 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_board"
+	group: ""
+	icon: "bountiful:bountyboard"
+	id: "4B5CB032F2DCBAAF"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"В деревнях появились доски объявлений."
+			"Кто-то оставляет задания. Кто-то платит."
+			"Возьми декрет с доски — и посмотри что предлагают."
+		]
+		id: "33D26AB72C7175A9"
+		rewards: [{
+			id: "4B3B76132BB79BAB"
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "simulation:artifact_catalog"
+				}
+			}
+			type: "item"
+		}]
+		tasks: [{
+			advancement: "simulation:bounty_board_found"
+			criterion: ""
+			id: "628B2656C5BC1684"
+			type: "advancement"
+		}]
+		title: "Доска объявлений"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Доска объявлений"
+}

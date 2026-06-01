@@ -1,0 +1,9 @@
+
+[ollama]
+	#Enable AI dialogue for NPCs via Ollama
+	enabled = true
+	#Ollama server URL
+	host = "http://127.0.0.1:11434"
+	#Model to use for NPC dialogue
+	model = "mistral-small"
+

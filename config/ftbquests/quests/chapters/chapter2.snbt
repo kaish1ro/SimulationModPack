@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter2"
+	group: ""
+	icon: "minecraft:iron_ingot"
+	id: "000000000000101C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["000000000000100D"]
+			description: [
+				"Под поверхностью — ресурсы."
+				"Мир скрывает их не случайно."
+			]
+			id: "0000000000001010"
+			tasks: [{
+				id: "000000000000100F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Железный возраст"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001010"]
+			description: [
+				"Субъект уязвим. Это временно."
+				"Железо даёт шанс."
+			]
+			id: "0000000000001012"
+			tasks: [{
+				id: "0000000000001011"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Первая защита"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001012"]
+			description: [
+				"Бесполезно для брони. Полезно для других целей."
+				"Найди его."
+			]
+			id: "0000000000001014"
+			tasks: [{
+				id: "0000000000001013"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Золото"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001014"]
+			description: [
+				"Редко. Ценно. Необходимо."
+				"Минимум — пять."
+			]
+			id: "0000000000001016"
+			tasks: [{
+				id: "0000000000001015"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Алмазы"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001016"]
+			description: [
+				"Мир становится опаснее."
+				"Стань опаснее мира."
+			]
+			id: "000000000000101B"
+			rewards: [{
+				count: 2
+				id: "000000000000101A"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000001017"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Оружие"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Глава II: Под землёй"
+}

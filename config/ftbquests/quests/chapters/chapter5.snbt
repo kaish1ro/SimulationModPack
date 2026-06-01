@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter5"
+	group: ""
+	icon: "minecraft:dragon_egg"
+	id: "0000000000001051"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["000000000000103D"]
+			description: [
+				"Это место создавалось не для тебя."
+				"И всё же ты здесь."
+			]
+			id: "0000000000001041"
+			rewards: [{
+				count: 3
+				id: "0000000000001040"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "000000000000103F"
+				type: "advancement"
+			}]
+			title: "За порогом"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001041"]
+			description: [
+				"Кристаллы питают его."
+				"Отрежь питание — и он станет уязвим."
+				"Уничтожь все восемь."
+			]
+			id: "0000000000001043"
+			tasks: [{
+				id: "0000000000001042"
+				type: "checkmark"
+			}]
+			title: "Источники силы"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001043"]
+			description: [
+				"Он охраняет выход."
+				"Или он и есть выход."
+				"Убей его. Узнаешь."
+			]
+			id: "0000000000001047"
+			rewards: [
+				{
+					count: 32
+					id: "0000000000001045"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "0000000000001046"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "0000000000001044"
+				type: "advancement"
+			}]
+			title: "Дракон Края"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001047"]
+			description: [
+				"Ты вышел из Края."
+				"Кто-то ждал тебя снаружи."
+				"Он знал, что ты придёшь."
+				"Он всегда знал."
+			]
+			id: "000000000000104C"
+			rewards: [{
+				count: 16
+				id: "000000000000104B"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000104A"
+				type: "checkmark"
+			}]
+			title: "Встреча"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000104C"]
+			description: [
+				"Записи. Годы странствий."
+				"Возможно — подсказка. Возможно — предупреждение."
+				"Читай внимательно."
+				"Второй этап начался."
+			]
+			id: "0000000000001050"
+			rewards: [
+				{
+					count: 32
+					id: "000000000000104E"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "000000000000104F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "000000000000104D"
+				type: "checkmark"
+			}]
+			title: "Книга Странника"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Глава V: Конец"
+}
