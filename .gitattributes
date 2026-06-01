@@ -1,2 +1,1 @@
-mods/battlemusic-1.0.2.jar filter=lfs diff=lfs merge=lfs -text
-mods/*.jar filter=lfs diff=lfs merge=lfs -text
+# Отключаем LFS для JAR — храним их отдельно от git
