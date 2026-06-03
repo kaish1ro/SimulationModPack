@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: ""
+	icon: "cataclysm:frosted_stone_bricks"
+	id: "1658A27E4A16550E"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Эти структуры не отмечены ни на одной карте."
+			"Кто-то строил их задолго до тебя."
+			"Атлас Катастроф содержит всё, что удалось собрать об этих местах."
+		]
+		id: "1125C3BAEB7A79FE"
+		rewards: [{
+			id: "5845D27A27E45419"
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "simulation:cataclysm_guide"
+				}
+			}
+			type: "item"
+		}]
+		tasks: [
+			{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "550544556AA07F4D"
+				type: "advancement"
+			}
+			{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "293D32BF83B66D47"
+				type: "advancement"
+			}
+			{
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "0217292D3B2C4292"
+				type: "advancement"
+			}
+			{
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "55F5ED6FB33D3A25"
+				type: "advancement"
+			}
+			{
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "1D0214E2A7BBEB60"
+				type: "advancement"
+			}
+			{
+				advancement: "cataclysm:find_acropolis"
+				criterion: ""
+				id: "7D47522EFE61B73A"
+				type: "advancement"
+			}
+			{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "20B361D97AABFA10"
+				type: "advancement"
+			}
+			{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "29BF41C202CD7DDC"
+				type: "advancement"
+			}
+		]
+		tasks_required: 1
+		title: "Неизвестные структуры"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Катаклизм"
+}

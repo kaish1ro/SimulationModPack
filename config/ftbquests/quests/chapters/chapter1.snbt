@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter1"
+	group: ""
+	icon: "minecraft:oak_log"
+	id: "000000000000100E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Субъект активирован."
+				"Ресурсы ограничены. Это норма."
+				"Начни с малого."
+			]
+			id: "0000000000001002"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "0000000000001001"
+				type: "advancement"
+			}]
+			title: "Инициализация"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001002"]
+			description: [
+				"Верстак — первый шаг к управлению миром."
+				"Примитивно. Но функционально."
+			]
+			id: "0000000000001004"
+			tasks: [{
+				advancement: "minecraft:story/craft_workbench"
+				criterion: ""
+				id: "0000000000001003"
+				type: "advancement"
+			}]
+			title: "Первый инструмент"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001004"]
+			description: [
+				"Камень — основа. Всего остального."
+				"Собери его достаточно."
+			]
+			id: "0000000000001006"
+			tasks: [{
+				id: "0000000000001005"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Добыча"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001006"]
+			description: [
+				"Тепло — это контроль."
+				"Построй печь. Плавь. Трансформируй."
+			]
+			id: "0000000000001008"
+			tasks: [{
+				id: "0000000000001007"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Огонь"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001008"]
+			description: [
+				"Мир не останавливается, когда темнеет."
+				"Выживи. Это условие первого теста."
+			]
+			id: "000000000000100D"
+			rewards: [
+				{
+					count: 16
+					id: "000000000000100A"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "000000000000100B"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "000000000000100C"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/sleep_in_bed"
+				criterion: ""
+				id: "0000000000001009"
+				type: "advancement"
+			}]
+			title: "Первая ночь"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Глава I: Первый день"
+}

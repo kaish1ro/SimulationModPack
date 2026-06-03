@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter3"
+	group: ""
+	icon: "minecraft:nether_brick"
+	id: "000000000000102F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["000000000000101B"]
+			description: [
+				"За этой рамой — другой мир."
+				"Ты пойдёшь туда. Это не вопрос."
+			]
+			id: "000000000000101E"
+			tasks: [{
+				id: "000000000000101D"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Зажигалка"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000101E"]
+			description: [
+				"Нижний мир существовал до тебя."
+				"Он существовал до многих."
+			]
+			id: "0000000000001021"
+			rewards: [{
+				count: 3
+				id: "0000000000001020"
+				item: "minecraft:fire_resistance"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "000000000000101F"
+				type: "advancement"
+			}]
+			title: "За порталом"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001021"]
+			description: [
+				"Здесь жили когда-то. Или что-то жило."
+				"Найди следы."
+			]
+			id: "0000000000001023"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "0000000000001022"
+				type: "advancement"
+			}]
+			title: "Крепость"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001023"]
+			description: [
+				"Три жизни. В обмен на одну важную вещь."
+				"Цена приемлема."
+			]
+			id: "0000000000001025"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0000000000001024"
+				type: "kill"
+				value: 0L
+			}]
+			title: "Визер-скелеты"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001025"]
+			description: [
+				"Пиглины торгуют. У них есть то, что нужно тебе."
+				"Найди их дом."
+			]
+			id: "0000000000001027"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "0000000000001026"
+				type: "advancement"
+			}]
+			title: "Бастион"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001027"]
+			description: [
+				"Телепортация — первый признак понимания пространства."
+				"Собери четыре."
+			]
+			id: "0000000000001029"
+			tasks: [{
+				id: "0000000000001028"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Жемчуг"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001029"]
+			description: [
+				"Нижний мир даёт. Нижний мир берёт."
+				"Ты взял достаточно. Уходи."
+			]
+			id: "000000000000102E"
+			rewards: [
+				{
+					id: "000000000000102B"
+					item: "minecraft:enchanted_book"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "000000000000102C"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "000000000000102D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "000000000000102A"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Возвращение"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "Глава III: Нижний мир"
+}
