@@ -65,8 +65,43 @@ ServerEvents.recipes(event => {
   // Огнетушитель
   event.remove({ output: 'cyclic:fire_killer' })
 
+  // ── Aether: перчатки убраны из крафта (выдаются по квестам) ─────────────────
+  ;[
+    'aether:leather_gloves', 'aether:iron_gloves', 'aether:golden_gloves',
+    'aether:chainmail_gloves', 'aether:diamond_gloves', 'aether:zanite_gloves',
+    'aether:gravitite_gloves', 'aether:netherite_gloves',
+  ].forEach(id => event.remove({ output: id }))
+
   // Все наковальни Cyclic
   event.remove({ output: 'cyclic:anvil' })
   event.remove({ output: 'cyclic:anvil_magma' })
   event.remove({ output: 'cyclic:anvil_void' })
+
+  // ── Cataclysm: сильное оружие и броня (WIP — нельзя получить через крафт) ──
+
+  // Броня (превышает незерит или имеет сильные эффекты)
+  ;[
+    'cataclysm:cursium_helmet', 'cataclysm:cursium_chestplate',
+    'cataclysm:cursium_leggings', 'cataclysm:cursium_boots',
+    'cataclysm:ignitium_helmet', 'cataclysm:ignitium_chestplate',
+    'cataclysm:ignitium_leggings', 'cataclysm:ignitium_boots',
+    'cataclysm:ignitium_elytra_chestplate',
+    'cataclysm:bone_reptile_helmet', 'cataclysm:bone_reptile_chestplate',
+    'cataclysm:monstrous_helm', 'cataclysm:bloom_stone_pauldrons',
+  ].forEach(id => event.remove({ output: id }))
+
+  // Оружие и инструменты (урон > 8 или особые способности)
+  ;[
+    'cataclysm:ancient_spear', 'cataclysm:astrape', 'cataclysm:brontes',
+    'cataclysm:ceraunus', 'cataclysm:soul_render', 'cataclysm:meat_shredder',
+    'cataclysm:laser_gatling', 'cataclysm:the_annihilator',
+    'cataclysm:the_immolator', 'cataclysm:the_incinerator',
+    'cataclysm:wrath_of_the_desert', 'cataclysm:cursed_bow',
+    'cataclysm:azure_sea_shield', 'cataclysm:black_steel_targe',
+    'cataclysm:gauntlet_of_bulwark', 'cataclysm:gauntlet_of_maelstrom',
+    'cataclysm:abyssal_sacrifice',
+  ].forEach(id => event.remove({ output: id }))
+
+  // Black Steel Sword: убираем оригинальный рецепт (ниже добавлен кастомный)
+  event.remove({ output: 'cataclysm:black_steel_sword' })
 })

@@ -36,24 +36,6 @@
 			},
 			"unitWorth": 20000
 		},
-		"rew_bunny_hoppers": {
-			"type": "item",
-			"content": "artifacts:bunny_hoppers",
-			"amount": {
-				"min": 1,
-				"max": 1
-			},
-			"unitWorth": 20000
-		},
-		"rew_running_shoes": {
-			"type": "item",
-			"content": "artifacts:running_shoes",
-			"amount": {
-				"min": 1,
-				"max": 1
-			},
-			"unitWorth": 20000
-		},
 		"rew_night_vision_goggles": {
 			"type": "item",
 			"content": "artifacts:night_vision_goggles",

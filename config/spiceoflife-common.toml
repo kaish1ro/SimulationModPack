@@ -7,5 +7,5 @@
 	#The maximum food history that is stored. In other words, the mod will remember the last N foods you
 	#ate, where N is the max history
 	#Range: 3 ~ 100
-	"Max History" = 30
+	"Max History" = 10
 
