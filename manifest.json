@@ -732,12 +732,6 @@
       "size": 136923
     },
     {
-      "name": "resourcefullib-forge-1.20.1-2.1.29.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/resourcefullib-forge-1.20.1-2.1.29.jar",
-      "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8",
-      "size": 432753
-    },
-    {
       "name": "rhino-forge-2001.2.3-build.10.jar",
       "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/rhino-forge-2001.2.3-build.10.jar",
       "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6",
