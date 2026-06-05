@@ -624,6 +624,12 @@
       "size": 204574
     },
     {
+      "name": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b",
+      "size": 625185
+    },
+    {
       "name": "kotlinforforge-4.12.0-all.jar",
       "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/kotlinforforge-4.12.0-all.jar",
       "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
