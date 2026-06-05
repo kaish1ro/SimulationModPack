@@ -102,12 +102,6 @@
       "size": 2133715
     },
     {
-      "name": "DistantHorizons-3.0.3-b-1.20.1-fabric-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/DistantHorizons-3.0.3-b-1.20.1-fabric-forge.jar",
-      "sha256": "591c07d649dde7669b1e8d9a53e89a8bc3aa0b9b7e4d768c2209017b02193356",
-      "size": 29467253
-    },
-    {
       "name": "ElysiumAPI-1.20.1-1.1.3.jar",
       "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ElysiumAPI-1.20.1-1.1.3.jar",
       "sha256": "807095e7df50d25d400d07ed8bccca7ab12ea5a28cb8a99e077750ebbb8df765",
@@ -486,12 +480,6 @@
       "size": 19170905
     },
     {
-      "name": "create-aeronautics-bundled-1.21.1-1.2.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/create-aeronautics-bundled-1.21.1-1.2.1.jar",
-      "sha256": "5a8c6d168ec1b47ecee7f2e83a93accbca71544d2b14ca1ca1b1271855f26248",
-      "size": 33030286
-    },
-    {
       "name": "cupboard-1.20.1-3.7.jar",
       "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/cupboard-1.20.1-3.7.jar",
       "sha256": "7c6069d42e3693dc4f80d06632f008fffe6f2507902dfca6c02bf035776ccaf3",
@@ -618,12 +606,6 @@
       "size": 597960
     },
     {
-      "name": "justzoom_forge_2.1.1_MC_1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/justzoom_forge_2.1.1_MC_1.20.1.jar",
-      "sha256": "778c75c388a8dffed5bfad25ab9a420dfd6c4ec3bdc1699ec6c2bab2336b5040",
-      "size": 204574
-    },
-    {
       "name": "kotlinforforge-4.12.0-all.jar",
       "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/kotlinforforge-4.12.0-all.jar",
       "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
@@ -730,6 +712,12 @@
       "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/resourcefulconfig-forge-1.20.1-2.1.3.jar",
       "sha256": "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded",
       "size": 136923
+    },
+    {
+      "name": "resourcefullib-forge-1.20.1-2.1.29.jar",
+      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8",
+      "size": 432753
     },
     {
       "name": "rhino-forge-2001.2.3-build.10.jar",
