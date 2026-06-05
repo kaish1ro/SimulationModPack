@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean"
+  ],
+  "features": "undead_revamp2:possesivesmallhome",
+  "step": "surface_structures",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "simulation:disabled"
+    }
+  ]
+}

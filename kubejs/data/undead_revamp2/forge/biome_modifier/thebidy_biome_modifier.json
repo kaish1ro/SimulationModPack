@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "undead_revamp2:thebidy",
+    "weight": 1,
+    "minCount": 3,
+    "maxCount": 4
+  },
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "simulation:disabled"
+    }
+  ]
+}

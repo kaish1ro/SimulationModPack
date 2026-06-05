@@ -104,4 +104,15 @@ ServerEvents.recipes(event => {
 
   // Black Steel Sword: убираем оригинальный рецепт (ниже добавлен кастомный)
   event.remove({ output: 'cataclysm:black_steel_sword' })
+
+  // ── The Undead Revamped: оружие и броня (WIP — откроются позже по прогрессии) ──
+  ;[
+    'undead_revamp2:bostroxset_boots', 'undead_revamp2:bostroxset_chestplate',
+    'undead_revamp2:bostroxset_helmet', 'undead_revamp2:bostroxsword',
+    'undead_revamp2:chainsword', 'undead_revamp2:aciddicsackbowl',
+    'undead_revamp2:cloggerarmor_boots', 'undead_revamp2:cloggerarmor_chestplate',
+    'undead_revamp2:cloggerarmor_helmet', 'undead_revamp2:cloggerarmor_leggings',
+    'undead_revamp2:primodialarmour_boots', 'undead_revamp2:primodialarmour_chestplate',
+    'undead_revamp2:primodialarmour_helmet',
+  ].forEach(id => event.remove({ output: id }))
 })

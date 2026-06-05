@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "plains",
+    "taiga"
+  ],
+  "features": "undead_revamp2:arapholia",
+  "step": "vegetal_decoration",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "simulation:disabled"
+    }
+  ]
+}

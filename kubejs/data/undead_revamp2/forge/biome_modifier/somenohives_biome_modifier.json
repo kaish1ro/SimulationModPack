@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna"
+  ],
+  "features": "undead_revamp2:somenohives",
+  "step": "surface_structures",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "simulation:disabled"
+    }
+  ]
+}
