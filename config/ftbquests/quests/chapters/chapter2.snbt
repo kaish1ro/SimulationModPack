@@ -70,6 +70,7 @@
 			]
 			id: "0000000000001016"
 			tasks: [{
+				count: 5L
 				id: "0000000000001015"
 				item: "minecraft:diamond"
 				type: "item"

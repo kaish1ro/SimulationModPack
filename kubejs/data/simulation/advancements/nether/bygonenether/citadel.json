@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "bygonenether:chiseled_warped_nether_bricks"
+    },
+    "title": {
+      "text": "Искаженная цитадель"
+    },
+    "description": {
+      "text": "Отыщите огромную цитадель среди адских пустошей."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "simulation:nether/root",
+  "criteria": {
+    "in_citadel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "bygonenether:citadel"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_citadel"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

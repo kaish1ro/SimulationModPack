@@ -1,9 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "plains",
-    "taiga"
-  ],
+  "biomes": "minecraft:the_void",
   "features": "undead_revamp2:arapholia",
   "step": "vegetal_decoration",
   "conditions": [

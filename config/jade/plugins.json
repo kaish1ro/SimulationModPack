@@ -64,6 +64,9 @@
   "twilightforest": {
     "quest_ram_wool": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

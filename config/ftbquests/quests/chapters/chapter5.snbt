@@ -38,6 +38,7 @@
 				"Отрежь питание — и он станет уязвим."
 				"Уничтожь все восемь."
 			]
+			icon: "minecraft:end_crystal"
 			id: "0000000000001043"
 			tasks: [{
 				id: "0000000000001042"
@@ -109,6 +110,13 @@
 				"Читай внимательно."
 				"Второй этап начался."
 			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "simulation:wanderers_journal"
+				}
+			}
 			id: "0000000000001050"
 			rewards: [
 				{

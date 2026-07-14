@@ -1,53 +1,41 @@
 ServerEvents.recipes(event => {
+    event.remove({ mod: 'undead_revamp2' })
+    event.remove({ mod: 'sons_of_sins' })
+    event.remove({ mod: 'midnight_madness' })
 
-    // --- 1. CYCLIC — броня и оружие (по паттерну) ---
-    event.remove({ mod: 'cyclic', output: /crystal/ })
-    event.remove({ mod: 'cyclic', output: /emerald/ })
-
-    // --- 2. CYCLIC — отдельные OP предметы ---
+    // === CYCLIC — убрать навсегда (слишком OP) ===
+    event.remove({ mod: 'cyclic', output: /crystal_sword/ })
+    event.remove({ mod: 'cyclic', output: /crystal_pickaxe/ })
+    event.remove({ mod: 'cyclic', output: /crystal_axe/ })
+    event.remove({ mod: 'cyclic', output: /crystal_shovel/ })
+    event.remove({ mod: 'cyclic', output: /crystal_hoe/ })
+    event.remove({ mod: 'cyclic', output: /crystal_helmet/ })
+    event.remove({ mod: 'cyclic', output: /crystal_chestplate/ })
+    event.remove({ mod: 'cyclic', output: /crystal_leggings/ })
+    event.remove({ mod: 'cyclic', output: /crystal_boots/ })
+    event.remove({ mod: 'cyclic', output: /emerald_sword/ })
+    event.remove({ mod: 'cyclic', output: /emerald_pickaxe/ })
+    event.remove({ mod: 'cyclic', output: /emerald_axe/ })
+    event.remove({ mod: 'cyclic', output: /emerald_shovel/ })
+    event.remove({ mod: 'cyclic', output: /emerald_hoe/ })
+    event.remove({ mod: 'cyclic', output: /emerald_helmet/ })
+    event.remove({ mod: 'cyclic', output: /emerald_chestplate/ })
+    event.remove({ mod: 'cyclic', output: /emerald_leggings/ })
+    event.remove({ mod: 'cyclic', output: /emerald_boots/ })
     event.remove({ output: 'cyclic:ender_wings' })
     event.remove({ output: 'cyclic:bag_of_holding' })
 
-    // --- 3. CYCLIC — машины (убираем ванильный крафт, заменим рецептом верстака) ---
-    // Указываем тип явно — чтобы не зацепить кастомные рецепты SimulationWorkbench
-    const cyclicMachines = [
-        'cyclic:harvester',
-        'cyclic:forester',
-        'cyclic:miner',
-        'cyclic:breaker',
-        'cyclic:placer',
-        'cyclic:collector',
-        'cyclic:collector_fluid',
-        'cyclic:crafter',
-        'cyclic:user',
-        'cyclic:enchanter',
-        'cyclic:disenchanter',
-        'cyclic:sprinkler',
-        'cyclic:structure',
-        'cyclic:dropper',
-        'cyclic:fan'
-    ]
+    // === GATEWAYS — крафт жемчуга убран (только авто-спавн после дракона) ===
+    event.remove({ output: 'gateways:gate_pearl' })
 
-    /*const cyclicMattocks = [
-        'cyclic:mattock',
-        'cyclic:mattock_stone',
-        'cyclic:mattock_nether'
-    ]*/
+    // Legendary Monsters: tameable summoners break early progression.
+    event.remove({ output: 'legendary_monsters:guard_summoner' })
+    event.remove({ output: 'legendary_monsters:knight_summoner' })
 
-    cyclicMachines.forEach(id => {
-        event.remove({ type: 'minecraft:crafting_shaped', output: id })
-        event.remove({ type: 'minecraft:crafting_shapeless', output: id })
-    })
+    // Alex's Mobs: Dimensional Carver is now a smithing upgrade reward.
+    event.remove({ id: 'alexsmobs:dimensional_carver' })
+    event.remove({ id: 'alexsmobs:shattered_dimensional_carver' })
 
-    /*cyclicMattocks.forEach(id => {
-        event.remove({ type: 'minecraft:crafting_shaped', output: id })
-        event.remove({ type: 'minecraft:crafting_shapeless', output: id })
-    })*/
-
-    // --- 4. SOLAR FLUX REBORN — убрать ВСЕ рецепты мода ---
-    // Solar Flux генерирует рецепты программно, поэтому удаляем весь неймспейс.
-    // Наши simulation:workbench_crafting рецепты на панели не затрагиваются —
-    // их ID начинается с "simulation:", а не "solarflux:".
-    event.remove({ mod: 'solarflux', output: /^solarflux:sp_[1-9]/ })
-
+    // Машины Cyclic и Solar Flux панели НЕ удаляются здесь —
+    // они скрыты в JEI и открываются через Схемы (client_scripts/jei_hiding.js)
 })

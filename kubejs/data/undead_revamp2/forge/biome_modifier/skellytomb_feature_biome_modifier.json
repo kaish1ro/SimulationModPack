@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#is_overworld",
+  "biomes": "minecraft:the_void",
   "features": "undead_revamp2:skellytomb_feature",
   "step": "surface_structures",
   "conditions": [

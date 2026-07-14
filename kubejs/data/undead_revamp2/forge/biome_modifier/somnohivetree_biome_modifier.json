@@ -1,10 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "savanna",
-    "savanna_plateau",
-    "windswept_savanna"
-  ],
+  "biomes": "minecraft:the_void",
   "features": "undead_revamp2:somnohivetree",
   "step": "surface_structures",
   "conditions": [

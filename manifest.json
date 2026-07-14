@@ -1,831 +1,981 @@
 {
-  "version": "0.1.0",
-  "forge": "1.20.1-47.4.10",
-  "java_min": 17,
-  "config_repo": "https://github.com/kaish1ro/SimulationModPack",
-  "config_branch": "main",
-  "mods": [
-    {
-      "name": "AI-Improvements-1.20-0.5.2.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/AI-Improvements-1.20-0.5.2.jar",
-      "sha256": "575a4a8e00f982c064d54bb3e73e5cda2d14414de054a471a3daf3f58bdf560a",
-      "size": 29553
-    },
-    {
-      "name": "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
-      "sha256": "41688a2ba90e5b07beb0e1844cfd0b21a4294b1073de144ae0a7f519b336a18b",
-      "size": 53429226
-    },
-    {
-      "name": "Apotheosis-1.20.1-7.4.8.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Apotheosis-1.20.1-7.4.8.jar",
-      "sha256": "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da",
-      "size": 2803994
-    },
-    {
-      "name": "ApothicAttributes-1.20.1-1.3.7.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ApothicAttributes-1.20.1-1.3.7.jar",
-      "sha256": "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a",
-      "size": 227511
-    },
-    {
-      "name": "Aquaculture-1.20.1-2.5.7.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Aquaculture-1.20.1-2.5.7.jar",
-      "sha256": "4c96cf0dd3363a8e15f9ef6b6bfc00ac7d4791e8e9eeebe19b8092c59e800f8f",
-      "size": 601839
-    },
-    {
-      "name": "BCLib-20.0.9.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BCLib-20.0.9.jar",
-      "sha256": "fc495d2a7847c630012dbc62e9171a0fe8905e569aa766e39d04dabe99f31976",
-      "size": 2177038
-    },
-    {
-      "name": "BOMD-Forge-1.20.1-1.1.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BOMD-Forge-1.20.1-1.1.1.jar",
-      "sha256": "4530411d4cd1004f3a6ad248c6bda667c364ee4fd345ceb7a20c947ef093e3be",
-      "size": 1751110
-    },
-    {
-      "name": "BetterEnd-20.0.8.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BetterEnd-20.0.8.jar",
-      "sha256": "499d0b441d20e10347bb9b226ad5e250f9d377d650d7e7ae909706a7cc473d3d",
-      "size": 93563673
-    },
-    {
-      "name": "BetterNether-20.0.10.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BetterNether-20.0.10.jar",
-      "sha256": "b35c80520f8b89a507efc80130016e28da54d2f17357e49677b2b4538a544174",
-      "size": 23322486
-    },
-    {
-      "name": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
-      "sha256": "330f482487ac3135557b6e898d7e1ae5330321e9cfd5ba63e13a16cf2e8d8b98",
-      "size": 22381010
-    },
-    {
-      "name": "Bountiful-6.0.4-1.20.1-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Bountiful-6.0.4-1.20.1-forge.jar",
-      "sha256": "ba171d8cf146faa138563b4b7114742e1589fc444fce7503a1779eb80a8a4765",
-      "size": 502662
-    },
-    {
-      "name": "CerbonsApi-Forge-1.20.1-1.0.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/CerbonsApi-Forge-1.20.1-1.0.0.jar",
-      "sha256": "b764f411ddcf4612b27774166d227d3bc92741e1a89ac0590aa3dbba432ab249",
-      "size": 134593
-    },
-    {
-      "name": "ChunkAnimator-1.20.1-1.3.7.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ChunkAnimator-1.20.1-1.3.7.jar",
-      "sha256": "374b2a05c4b346acde6de8f4718b1e6b41ad2ba7b059204526a2da8b6551a21c",
-      "size": 35464
-    },
-    {
-      "name": "CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
-      "sha256": "629afffc34377f27813466a5b8e9e83b5aea198462ff776780776be4693a7ead",
-      "size": 1144069
-    },
-    {
-      "name": "Cyclic-1.20.1-1.13.7.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Cyclic-1.20.1-1.13.7.jar",
-      "sha256": "477bbf91e94fc6a16fe22f958205205948877352376e86745f5213992eaf09f1",
-      "size": 4275426
-    },
-    {
-      "name": "Darker Depths-1.20.1-2.1.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Darker.Depths-1.20.1-2.1.3.jar",
-      "sha256": "393cf3a6c277fa0cb5fd3c1c282f4a90927ce87cbeaf1949196a1959dfec2795",
-      "size": 2133715
-    },
-    {
-      "name": "DistantHorizons-3.0.3-b-1.20.1-fabric-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/DistantHorizons-3.0.3-b-1.20.1-fabric-forge.jar",
-      "sha256": "591c07d649dde7669b1e8d9a53e89a8bc3aa0b9b7e4d768c2209017b02193356",
-      "size": 29467253
-    },
-    {
-      "name": "ElysiumAPI-1.20.1-1.1.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ElysiumAPI-1.20.1-1.1.3.jar",
-      "sha256": "807095e7df50d25d400d07ed8bccca7ab12ea5a28cb8a99e077750ebbb8df765",
-      "size": 107624
-    },
-    {
-      "name": "ExplorersCompass-1.20.1-1.4.0-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ExplorersCompass-1.20.1-1.4.0-forge.jar",
-      "sha256": "0d9a7705f39a9eac19c33e0fbe5422280048991a341dc0d9471bff32111c502c",
-      "size": 174387
-    },
-    {
-      "name": "FarmersDelight-1.20.1-1.3.2.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/FarmersDelight-1.20.1-1.3.2.jar",
-      "sha256": "47aed94bb9192c4978fe199f9d3ca5895aeccfbe5b5a0869fdf3aa011c2641f7",
-      "size": 3313327
-    },
-    {
-      "name": "FastSuite-1.20.1-5.1.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/FastSuite-1.20.1-5.1.0.jar",
-      "sha256": "326932853763885ed703d8969a62c459235d6b4a2b6a194535feb3daca484f84",
-      "size": 25305
-    },
-    {
-      "name": "Galosphere-1.20.1-1.4.1-Forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Galosphere-1.20.1-1.4.1-Forge.jar",
-      "sha256": "f21385ca7512ba15bd66ac345e60d85916cba9686061892f8f89548aaaeadb96",
-      "size": 34909449
-    },
-    {
-      "name": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/GlitchCore-forge-1.20.1-0.0.1.1.jar",
-      "sha256": "e42a8b513da08a910c133caeafad9fc2fcc22fdaaa2eb3e2516e9112a5a0db61",
-      "size": 87550
-    },
-    {
-      "name": "HammerLib-1.20.1-20.1.50.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/HammerLib-1.20.1-20.1.50.jar",
-      "sha256": "118a192c8c215436d75bb7c64120dba7db37695ed0d823f6b4c0ba08d09325bf",
-      "size": 2445389
-    },
-    {
-      "name": "IllagerInvasion-v8.0.7-1.20.1-Forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/IllagerInvasion-v8.0.7-1.20.1-Forge.jar",
-      "sha256": "790d52067b30e85ff0dcc4131cf709f9f45c619bdc6b6ff11ed8ac4e3f61acda",
-      "size": 2341695
-    },
-    {
-      "name": "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
-      "sha256": "da781a31b2c8d8a845ed48c89b6463f1df3f2c655de10d8d4f5bed8123ff68a8",
-      "size": 538992
-    },
-    {
-      "name": "ItemPhysic_FORGE_v1.8.13_mc1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ItemPhysic_FORGE_v1.8.13_mc1.20.1.jar",
-      "sha256": "2db15be22b848c3f937b6d30dd8875a6cd4e42776242092ac9a3c4f1f01bef4c",
-      "size": 55792
-    },
-    {
-      "name": "Jade-1.20.1-Forge-11.13.2.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Jade-1.20.1-Forge-11.13.2.jar",
-      "sha256": "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5",
-      "size": 552486
-    },
-    {
-      "name": "Jadens-Nether-Expansion-2.3.5.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Jadens-Nether-Expansion-2.3.5.jar",
-      "sha256": "97c9c1271c3f551663592b689771e45d63098e674899596d693641b82ecf5ccb",
-      "size": 23488061
-    },
-    {
-      "name": "JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
-      "sha256": "13e2012375d16663192cf67f5e4139335e5dcbeaf2adf7e8a4816b013802f96a",
-      "size": 24607
-    },
-    {
-      "name": "Kambrik-6.1.1+1.20.1-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Kambrik-6.1.1+1.20.1-forge.jar",
-      "sha256": "37d0c2b03a1f3aacb30498d67c35adaca99dc9ecd30f66f383016f4cbc85be8e",
-      "size": 325546
-    },
-    {
-      "name": "L_Enders_Cataclysm-3.28-optimization.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/L_Enders_Cataclysm-3.28-optimization.jar",
-      "sha256": "c786603ecc395d3e35f174b6313b835afb3abd4491acc7887b0dfcabdae82d58",
-      "size": 73914394
-    },
-    {
-      "name": "NaturesCompass-1.20.1-1.12.0-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/NaturesCompass-1.20.1-1.12.0-forge.jar",
-      "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197",
-      "size": 227495
-    },
-    {
-      "name": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
-      "sha256": "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047",
-      "size": 424035
-    },
-    {
-      "name": "Patchouli-1.20.1-85-FORGE.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Patchouli-1.20.1-85-FORGE.jar",
-      "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
-      "size": 642732
-    },
-    {
-      "name": "Placebo-1.20.1-8.6.2.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Placebo-1.20.1-8.6.2.jar",
-      "sha256": "1fcacfb17c4f5f3880d99a1bf29c76bc2d6bf6ed6e02ca8051a3b6eee4c99c5a",
-      "size": 285351
-    },
-    {
-      "name": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
-      "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f",
-      "size": 1342987
-    },
-    {
-      "name": "Quark-4.0-462.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Quark-4.0-462.jar",
-      "sha256": "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478",
-      "size": 14935230
-    },
-    {
-      "name": "Searchables-forge-1.20.1-1.0.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Searchables-forge-1.20.1-1.0.3.jar",
-      "sha256": "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576",
-      "size": 77732
-    },
-    {
-      "name": "SereneSeasons-forge-1.20.1-9.1.0.2.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/SereneSeasons-forge-1.20.1-9.1.0.2.jar",
-      "sha256": "c4f1b6bcbd2c4fd8c54866cc217f455d2e8262e35ac218f8fb628c79bc76ff8e",
-      "size": 160887
-    },
-    {
-      "name": "SmartBrainLib-forge-1.20.1-1.15.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/SmartBrainLib-forge-1.20.1-1.15.jar",
-      "sha256": "665f65f77cc36379a9ae11c09db5d9efa1ad4f8d017edc8f65903ff27cacdb1d",
-      "size": 362338
-    },
-    {
-      "name": "SolarFluxReborn-1.20.1-20.1.11.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/SolarFluxReborn-1.20.1-20.1.11.jar",
-      "sha256": "b8460262e2e657af8ce5ea4dd85fae5e611c7685e363d58c0f4389765ff1d463",
-      "size": 286313
-    },
-    {
-      "name": "THEUNDEADREVAMPED_1.9O_1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/THEUNDEADREVAMPED_1.9O_1.20.1.jar",
-      "sha256": "f45325552c8ac5de7f2cfcee6011ba33065ec0ed9921701fe52a60a5175c23db",
-      "size": 8010436
-    },
-    {
-      "name": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/TerraBlender-forge-1.20.1-3.0.1.10.jar",
-      "sha256": "c109016f46ca9bdae69976bf080bbf2e8e5968cb66c0a78845f8ca6af5dbbeb1",
-      "size": 107532
-    },
-    {
-      "name": "The_Undergarden-1.20.1-0.8.14.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/The_Undergarden-1.20.1-0.8.14.jar",
-      "sha256": "43029e388ab455f8c9bcfc8653b9a57a3eb1ff6b435cf6e58722d2d4c50d2444",
-      "size": 45084263
-    },
-    {
-      "name": "VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
-      "sha256": "915f226fa14ce274879487dd14f38af5c57e1a9ada85099501134c4c8a03897a",
-      "size": 82557
-    },
-    {
-      "name": "Voidscape-1.20.1-1.5.389.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Voidscape-1.20.1-1.5.389.jar",
-      "sha256": "c3eb2cc621c035460652f71ecaa80f54db1bc69f8440538f904baf46a96411a8",
-      "size": 1844868
-    },
-    {
-      "name": "WunderLib-20.0.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/WunderLib-20.0.1.jar",
-      "sha256": "33d30150d69f0b1f1b077dab0edbefdca5e274bfa9a56578c6fe35d4dc62ccbd",
-      "size": 227846
-    },
-    {
-      "name": "YungsApi-1.20-Forge-4.0.6.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsApi-1.20-Forge-4.0.6.jar",
-      "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1",
-      "size": 370524
-    },
-    {
-      "name": "YungsBetterCaves-1.20.1-Forge-2.0.5.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterCaves-1.20.1-Forge-2.0.5.jar",
-      "sha256": "bd1e07e03626ad851e7b84e5a8a6ecdd976f7e923a3e56df69c6b6e906e7389e",
-      "size": 401492
-    },
-    {
-      "name": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
-      "sha256": "5a74294725232c665b908af6e25224d111550cf69d74613e415b9f48ff150d16",
-      "size": 918012
-    },
-    {
-      "name": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
-      "sha256": "93c24e4075c51da0866f3fc92322bdb60e590ac2cd78dce275460839c54c36f5",
-      "size": 792381
-    },
-    {
-      "name": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
-      "sha256": "05c2f43a67116f0bbca32d903b55ce1655b9319ed6554080de02bd1d0c232a83",
-      "size": 387111
-    },
-    {
-      "name": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
-      "sha256": "728c0a807742356887edf7d4f736b3870b7c84007ec9c495c27da1dc0b61078d",
-      "size": 806652
-    },
-    {
-      "name": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
-      "sha256": "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc",
-      "size": 492998
-    },
-    {
-      "name": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
-      "sha256": "12cffc99dccca69d294ba5bc39c331367794b339061572a6f3773620303a2f51",
-      "size": 619255
-    },
-    {
-      "name": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
-      "sha256": "bea2640c4afeb5231362a756d886ca4f246c7951175c91348272b3ce5d483bae",
-      "size": 1033262
-    },
-    {
-      "name": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
-      "sha256": "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4",
-      "size": 473564
-    },
-    {
-      "name": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
-      "sha256": "24b3bdc844755e8a39571b5000d8dd829543f7b150d154016ccd926e47d06a71",
-      "size": 179190
-    },
-    {
-      "name": "YungsBridges-1.20-Forge-4.0.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBridges-1.20-Forge-4.0.3.jar",
-      "sha256": "728e49e81a088291c75835130f59357fe772d77c1f2de91c63872579d5485f6c",
-      "size": 136236
-    },
-    {
-      "name": "YungsCaveBiomes-1.20.1-Forge-2.0.5.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsCaveBiomes-1.20.1-Forge-2.0.5.jar",
-      "sha256": "b799668cbbc0903e885f5b638119d0221186e5dbfe812eaf391f86ab8a97bd42",
-      "size": 13014967
-    },
-    {
-      "name": "YungsExtras-1.20-Forge-4.0.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsExtras-1.20-Forge-4.0.3.jar",
-      "sha256": "3def0d66debef6185df82f6b777ec382a59dc66da47c8f081e69cc059da1d98d",
-      "size": 200341
-    },
-    {
-      "name": "Zeta-1.0-31.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Zeta-1.0-31.jar",
-      "sha256": "cd1786902a79434f8fd762d741019d9c8a79725fef7e30a89c153c934e1e6a9e",
-      "size": 1006518
-    },
-    {
-      "name": "aether-1.20.1-1.5.2-neoforge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/aether-1.20.1-1.5.2-neoforge.jar",
-      "sha256": "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5",
-      "size": 39746319
-    },
-    {
-      "name": "alexscaves-2.0.2.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/alexscaves-2.0.2.jar",
-      "sha256": "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0",
-      "size": 74871657
-    },
-    {
-      "name": "alexsmobs-1.22.9-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/alexsmobs-1.22.9-1.20.1.jar",
-      "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c",
-      "size": 26350793
-    },
-    {
-      "name": "appleskin-forge-mc1.20.1-2.5.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/appleskin-forge-mc1.20.1-2.5.1.jar",
-      "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
-      "size": 47428
-    },
-    {
-      "name": "aquamirae-forge-1.20.1-6.4.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/aquamirae-forge-1.20.1-6.4.0.jar",
-      "sha256": "1a9c845ba2e1fe0bbf321a66453e26e62bb6b528849be2f8281db9f17a0c7aca",
-      "size": 19073985
-    },
-    {
-      "name": "architectury-9.2.14-forge-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/architectury-9.2.14-forge-1.20.1.jar",
-      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
-      "size": 580602
-    },
-    {
-      "name": "artifacts-forge-9.5.19.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/artifacts-forge-9.5.19.jar",
-      "sha256": "f1e4dc786866b6e4f2a48142f2acf63bb9bee54ac2f31621ad5d8f18ab54c7b0",
-      "size": 850974
-    },
-    {
-      "name": "balm-forge-1.20.1-7.3.37-all.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/balm-forge-1.20.1-7.3.37-all.jar",
-      "sha256": "7f10f01866c8316edfc1ffbc49baf1154923beac637e2d7b5399d26508fdd914",
-      "size": 590486
-    },
-    {
-      "name": "battlemusic-1.0.2.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/battlemusic-1.0.2.jar",
-      "sha256": "9f4290afa93c87e19603d5343690ba2acf9d5e5a3f3088d543d92d0ab6605539",
-      "size": 113527322
-    },
-    {
-      "name": "bettervillage-forge-1.20.1-3.3.1-all.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/bettervillage-forge-1.20.1-3.3.1-all.jar",
-      "sha256": "9e8b26db627f1eaa6f4daa3a771c5ac844ec29249bc251273df394736451d3f2",
-      "size": 2612506
-    },
-    {
-      "name": "block_factorys_bosses-2.1.2-forge-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/block_factorys_bosses-2.1.2-forge-1.20.1.jar",
-      "sha256": "8c61087aa483f90861451682519582e03fa76e773d855e35180a8ed3428938bc",
-      "size": 23963009
-    },
-    {
-      "name": "blue_skies-1.20.1-1.3.31.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/blue_skies-1.20.1-1.3.31.jar",
-      "sha256": "dda5351a7d75f8074e9878912140fd5ab2fe4e74d7678d4f9c52c0b86bce9748",
-      "size": 83564111
-    },
-    {
-      "name": "born_in_chaos_-Forge-1.20.1_1.7.5.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/born_in_chaos_-Forge-1.20.1_1.7.5.jar",
-      "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d",
-      "size": 11839865
-    },
-    {
-      "name": "canary-mc1.20.1-0.3.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/canary-mc1.20.1-0.3.3.jar",
-      "sha256": "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942",
-      "size": 594191
-    },
-    {
-      "name": "chunkanimatorembeddiumcompat-2.0.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/chunkanimatorembeddiumcompat-2.0.0.jar",
-      "sha256": "5dad8e5acff4c10e6b81cefb2583f87f0f19e734790b23007f0214b7c66b0467",
-      "size": 47529
-    },
-    {
-      "name": "citadel-2.6.0-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/citadel-2.6.0-1.20.1.jar",
-      "sha256": "549596de295d90a84ee70625076087a9724dabca1de0567ef6ef03435aab7d5d",
-      "size": 3173174
-    },
-    {
-      "name": "cloth-config-11.1.136-forge-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/cloth-config-11.1.136-forge-1.20.1.jar",
-      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
-      "size": 1181413
-    },
-    {
-      "name": "corpse-forge-1.20.1-1.0.23.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/corpse-forge-1.20.1-1.0.23.jar",
-      "sha256": "8d77c5fc8dc981c750a8e66d4665f055457f748f0ce49a303d9bc50347bdbf7c",
-      "size": 245644
-    },
-    {
-      "name": "create-1.20.1-6.0.8.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/create-1.20.1-6.0.8.jar",
-      "sha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0",
-      "size": 19170905
-    },
-    {
-      "name": "create-aeronautics-bundled-1.21.1-1.2.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/create-aeronautics-bundled-1.21.1-1.2.1.jar",
-      "sha256": "5a8c6d168ec1b47ecee7f2e83a93accbca71544d2b14ca1ca1b1271855f26248",
-      "size": 33030286
-    },
-    {
-      "name": "cupboard-1.20.1-3.7.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/cupboard-1.20.1-3.7.jar",
-      "sha256": "7c6069d42e3693dc4f80d06632f008fffe6f2507902dfca6c02bf035776ccaf3",
-      "size": 31643
-    },
-    {
-      "name": "curios-forge-5.8.1+1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/curios-forge-5.8.1+1.20.1.jar",
-      "sha256": "676f84eb75f943abc2f5ff89a3d6927265642047a469aa301ac51de3377e4869",
-      "size": 380722
-    },
-    {
-      "name": "deeperdarker-forge-1.20.1-1.3.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/deeperdarker-forge-1.20.1-1.3.3.jar",
-      "sha256": "d07dc6155e0b751c7d1ec26dabb7284a41798c85e48b0d809fd1254e489ed455",
-      "size": 17844266
-    },
-    {
-      "name": "divinerpg-1.10.7.5-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/divinerpg-1.10.7.5-1.20.1.jar",
-      "sha256": "ce73e2a3f97082cae1ae4afbb1b2facea0331a381b8d5d8f8e67ed27bb450030",
-      "size": 28016649
-    },
-    {
-      "name": "embeddium-0.3.31+mc1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/embeddium-0.3.31+mc1.20.1.jar",
-      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
-      "size": 1320675
-    },
-    {
-      "name": "endermanoverhaul-forge-1.20.1-1.0.4.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/endermanoverhaul-forge-1.20.1-1.0.4.jar",
-      "sha256": "18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5",
-      "size": 1208062
-    },
-    {
-      "name": "endrem_forge-5.3.3-R-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/endrem_forge-5.3.3-R-1.20.1.jar",
-      "sha256": "19295ca4a798f2e813f359fa376f586bc57fadacd78b7e32440257f9f8bf2557",
-      "size": 889634
-    },
-    {
-      "name": "entityculling-forge-1.10.2-mc1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/entityculling-forge-1.10.2-mc1.20.1.jar",
-      "sha256": "34da8e10cf31ade2b86b02e4f55c4d3b480a0992148ac12f9ec49eb7be4bfda0",
-      "size": 1587585
-    },
-    {
-      "name": "ferritecore-6.0.1-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ferritecore-6.0.1-forge.jar",
-      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
-      "size": 123034
-    },
-    {
-      "name": "flib-1.20.1-0.0.16.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/flib-1.20.1-0.0.16.jar",
-      "sha256": "5736fd8a36fb3c69f99bae3127fb3743b68c801ffbab71a876c2a203a2c19e0e",
-      "size": 276850
-    },
-    {
-      "name": "ftb-library-forge-2001.2.12.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ftb-library-forge-2001.2.12.jar",
-      "sha256": "f09335944fff8ca3ef37a40e0b125ffb6707759ede258c73f9ce9bac61bfbf96",
-      "size": 780523
-    },
-    {
-      "name": "ftb-quests-forge-2001.4.22.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ftb-quests-forge-2001.4.22.jar",
-      "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
-      "size": 1255469
-    },
-    {
-      "name": "ftb-teams-forge-2001.3.2.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ftb-teams-forge-2001.3.2.jar",
-      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
-      "size": 252579
-    },
-    {
-      "name": "ftb-xmod-compat-forge-2.1.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ftb-xmod-compat-forge-2.1.3.jar",
-      "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72",
-      "size": 129725
-    },
-    {
-      "name": "geckolib-forge-1.20.1-4.8.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/geckolib-forge-1.20.1-4.8.3.jar",
-      "sha256": "8b90e11871a58b63816e99c529e6c932bc88e6beb3fec97ad618e22217df3250",
-      "size": 1039046
-    },
-    {
-      "name": "jecalculation-forge-1.20.1-4.0.4.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/jecalculation-forge-1.20.1-4.0.4.jar",
-      "sha256": "dec055d12731ba61584d308d304cbe37033e31e67d2cfc83bb662114e4e033d6",
-      "size": 361918
-    },
-    {
-      "name": "jeed-1.20-2.2.5.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/jeed-1.20-2.2.5.jar",
-      "sha256": "841dee59c98c1b490073866a47dbd77f13125d425a8c6a8e850cf8c43e699a83",
-      "size": 159288
-    },
-    {
-      "name": "jei-1.20.1-forge-15.20.0.130.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/jei-1.20.1-forge-15.20.0.130.jar",
-      "sha256": "36d3dfb2214b9dca38c447fd971dd2dedc5f69719a5aca6ffcef69b2840ece0a",
-      "size": 1409705
-    },
-    {
-      "name": "jeiintegration_1.20.1-10.0.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/jeiintegration_1.20.1-10.0.0.jar",
-      "sha256": "0d83bcb477d761a73cdbb37f723a5d994e61a389340e219e5ce8dc9618be933e",
-      "size": 26940
-    },
-    {
-      "name": "journeymap-1.20.1-5.10.3-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/journeymap-1.20.1-5.10.3-forge.jar",
-      "sha256": "8b2679b7b4881e0aa430fd24345ea446de919faf8a45bd2a71d37c7e8ff6ae1e",
-      "size": 7160405
-    },
-    {
-      "name": "justenoughbreeding-forge-1.20.1-3.0.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/justenoughbreeding-forge-1.20.1-3.0.1.jar",
-      "sha256": "6d443123a7b2159b2e64545bb50109b359c72103b8c511390e7dde58e3b7c518",
-      "size": 597960
-    },
-    {
-      "name": "justzoom_forge_2.1.1_MC_1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/justzoom_forge_2.1.1_MC_1.20.1.jar",
-      "sha256": "778c75c388a8dffed5bfad25ab9a420dfd6c4ec3bdc1699ec6c2bab2336b5040",
-      "size": 204574
-    },
-    {
-      "name": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-      "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b",
-      "size": 625185
-    },
-    {
-      "name": "kotlinforforge-4.12.0-all.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/kotlinforforge-4.12.0-all.jar",
-      "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
-      "size": 7442998
-    },
-    {
-      "name": "kubejs-forge-2001.6.5-build.26.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/kubejs-forge-2001.6.5-build.26.jar",
-      "sha256": "1769312192fbf9d72f45054ba61130523bfb471b5f480a4bff8c210ec09400bb",
-      "size": 1658792
-    },
-    {
-      "name": "libraryferret-forge-1.20.1-4.0.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/libraryferret-forge-1.20.1-4.0.0.jar",
-      "sha256": "355f5000b56d6f355338bd494fcdb822f36e29cf9e3c27ebcc7720402a804510",
-      "size": 190536
-    },
-    {
-      "name": "lionfishapi-3.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/lionfishapi-3.0.jar",
-      "sha256": "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871",
-      "size": 101931
-    },
-    {
-      "name": "lucent-1.20.1-1.5.5.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/lucent-1.20.1-1.5.5.jar",
-      "sha256": "dc5fd7883dabcdaf3bf5ba02d8f20f2974df20edc6ce7a05e788d998fd3ef152",
-      "size": 225245
-    },
-    {
-      "name": "majrusz-library-forge-1.20.1-7.0.8.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/majrusz-library-forge-1.20.1-7.0.8.jar",
-      "sha256": "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548",
-      "size": 437340
-    },
-    {
-      "name": "majruszs-difficulty-forge-1.20.1-1.9.10.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/majruszs-difficulty-forge-1.20.1-1.9.10.jar",
-      "sha256": "3a47dee789e49050e2819e1c173c7fc4d8020a8604e7ed9afb4017a941ba86f3",
-      "size": 777242
-    },
-    {
-      "name": "midnight-1.20.1-0.6.7.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/midnight-1.20.1-0.6.7.jar",
-      "sha256": "252ad68dac3dbc8b1f7885edccb563becb26ce2fe4abf4f2713a3869b9bff820",
-      "size": 27285160
-    },
-    {
-      "name": "modernfix-forge-5.27.40+mc1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/modernfix-forge-5.27.40+mc1.20.1.jar",
-      "sha256": "0061a53c0335693318073788c57c5288f5b8b5b3918c7561f5fb7860a394611f",
-      "size": 970410
-    },
-    {
-      "name": "noisium-forge-2.3.0-mc1.20-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/noisium-forge-2.3.0-mc1.20-1.20.1.jar",
-      "sha256": "b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c",
-      "size": 218152
-    },
-    {
-      "name": "obscure_api-18.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/obscure_api-18.jar",
-      "sha256": "14f099e9b8c1cae0c98b5ccb792d5eaf56b71c456cf2c2d59de3c175be3e3b7e",
-      "size": 1128392
-    },
-    {
-      "name": "oculus-mc1.20.1-1.8.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/oculus-mc1.20.1-1.8.0.jar",
-      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
-      "size": 2851119
-    },
-    {
-      "name": "phantasm-1.1.2.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/phantasm-1.1.2.jar",
-      "sha256": "2a9d6bcc68185fecf8be42d54d699d991e12ea41e2538ac7c936a5d11cfc740c",
-      "size": 7008954
-    },
-    {
-      "name": "polymorph-forge-0.49.10-1.20.1 (1).jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/polymorph-forge-0.49.10-1.20.1.(1).jar",
-      "sha256": "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f",
-      "size": 299601
-    },
-    {
-      "name": "rarcompat-1.20.1-0.5.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/rarcompat-1.20.1-0.5.jar",
-      "sha256": "2de2a9cfd21edf676072ca7432ff9acdd28f8e077fcac90a46d3dea8f82bf9f1",
-      "size": 409926
-    },
-    {
-      "name": "relics-1.20.1-0.8.0.13.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/relics-1.20.1-0.8.0.13.jar",
-      "sha256": "2731d3b81533564c5d206faf94e4e8afaf928d97b47b720e5d6aaa017333096f",
-      "size": 1521089
-    },
-    {
-      "name": "repurposed_structures-7.1.23+1.20.1-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/repurposed_structures-7.1.23+1.20.1-forge.jar",
-      "sha256": "cdb099d1724c9a1423f3bfadfd6e9db0d3cefef11c651ea3625d0efed4ded35e",
-      "size": 8229864
-    },
-    {
-      "name": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/resourcefulconfig-forge-1.20.1-2.1.3.jar",
-      "sha256": "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded",
-      "size": 136923
-    },
-    {
-      "name": "resourcefullib-forge-1.20.1-2.1.29.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/resourcefullib-forge-1.20.1-2.1.29.jar",
-      "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8",
-      "size": 432753
-    },
-    {
-      "name": "rhino-forge-2001.2.3-build.10.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/rhino-forge-2001.2.3-build.10.jar",
-      "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6",
-      "size": 1798244
-    },
-    {
-      "name": "silent-lib-1.20.1-8.0.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/silent-lib-1.20.1-8.0.0.jar",
-      "sha256": "9ca45fb6d723474d145227bed27dd1791cca30ac96fd8f05084417b0779e0e01",
-      "size": 225949
-    },
-    {
-      "name": "simulation-0.1.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/simulation-0.1.0.jar",
-      "sha256": "7cedb1107f64562946b953f307a2c756f826564d15ec2fb4a7fe2a0fcbc2e54f",
-      "size": 1703217
-    },
-    {
-      "name": "sophisticatedbackpacks-1.20.1-3.24.43.1789.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/sophisticatedbackpacks-1.20.1-3.24.43.1789.jar",
-      "sha256": "fb516ea37e837ea6539308b4bcfaafe2328f259c453e88b9de5ed3f506183aec",
-      "size": 1052185
-    },
-    {
-      "name": "sophisticatedcore-1.20.1-1.3.37.1870.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/sophisticatedcore-1.20.1-1.3.37.1870.jar",
-      "sha256": "eaef425ad1767c7d91fb2e405dba2da1fc1e868d8e6c86375f3a55d9e75b6bca",
-      "size": 1566112
-    },
-    {
-      "name": "spark-1.10.53-forge.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/spark-1.10.53-forge.jar",
-      "sha256": "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed",
-      "size": 3114590
-    },
-    {
-      "name": "spiceoflife-0.0.3-1.20.1_1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/spiceoflife-0.0.3-1.20.1_1.jar",
-      "sha256": "6ac0a0bf55efb3bff88b8e56b1592d51c97739fca925ffce678775e9036e0863",
-      "size": 30294
-    },
-    {
-      "name": "starlight-1.1.2+forge.1cda73c.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/starlight-1.1.2+forge.1cda73c.jar",
-      "sha256": "e90763c86d362c7cb427dbb70e89985c11a882fdd69ae7d04ac2e23a106eb500",
-      "size": 110583
-    },
-    {
-      "name": "structure_gel-1.20.1-2.16.0.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/structure_gel-1.20.1-2.16.0.jar",
-      "sha256": "13ba36ec4805ddee02a5adf34a7141320b5e1fbcaa8ce9a26d06da276a9ddc90",
-      "size": 961824
-    },
-    {
-      "name": "threateningly_mobs-1.1.1-forge-1.20.1.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/threateningly_mobs-1.1.1-forge-1.20.1.jar",
-      "sha256": "c67640d6c41f24a28d0b2d2a48dd6014b24242ef1b1e4d6fda349d48df48c5a6",
-      "size": 10136081
-    },
-    {
-      "name": "twilightforest-1.20.1-4.3.2508-universal.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/twilightforest-1.20.1-4.3.2508-universal.jar",
-      "sha256": "0bdc89263616d1b35c32ef82c5e9c14cbd20368e2fe8b468c72a28320be7a778",
-      "size": 23332091
-    },
-    {
-      "name": "waystones-forge-1.20.1-14.1.20.jar",
-      "url": "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/waystones-forge-1.20.1-14.1.20.jar",
-      "sha256": "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd",
-      "size": 533738
-    }
-  ]
+    "version":  "0.1.0",
+    "forge":  "1.20.1-47.4.10",
+    "java_min":  17,
+    "config_repo":  "https://github.com/kaish1ro/SimulationModPack",
+    "config_branch":  "main",
+    "mods":  [
+                 {
+                     "name":  "1.20.1MidnightMadness-2.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/1.20.1MidnightMadness-2.0.jar",
+                     "sha256":  "4033a7eef275b6cedfe99a4a7391b76dd783fd9b1b685923ded7d6d3c7485377",
+                     "size":  10344577
+                 },
+                 {
+                     "name":  "aether-1.20.1-1.5.2-neoforge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/aether-1.20.1-1.5.2-neoforge.jar",
+                     "sha256":  "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5",
+                     "size":  39746319
+                 },
+                 {
+                     "name":  "AI-Improvements-1.20-0.5.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/AI-Improvements-1.20-0.5.2.jar",
+                     "sha256":  "575a4a8e00f982c064d54bb3e73e5cda2d14414de054a471a3daf3f58bdf560a",
+                     "size":  29553
+                 },
+                 {
+                     "name":  "alexscaves-2.0.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/alexscaves-2.0.2.jar",
+                     "sha256":  "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0",
+                     "size":  74871657
+                 },
+                 {
+                     "name":  "alexsmobs-1.22.9-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/alexsmobs-1.22.9-1.20.1.jar",
+                     "sha256":  "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c",
+                     "size":  26350793
+                 },
+                 {
+                     "name":  "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+                     "sha256":  "41688a2ba90e5b07beb0e1844cfd0b21a4294b1073de144ae0a7f519b336a18b",
+                     "size":  53429226
+                 },
+                 {
+                     "name":  "Apotheosis-1.20.1-7.4.8.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Apotheosis-1.20.1-7.4.8.jar",
+                     "sha256":  "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da",
+                     "size":  2803994
+                 },
+                 {
+                     "name":  "ApothicAttributes-1.20.1-1.3.7.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ApothicAttributes-1.20.1-1.3.7.jar",
+                     "sha256":  "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a",
+                     "size":  227511
+                 },
+                 {
+                     "name":  "appleskin-forge-mc1.20.1-2.5.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/appleskin-forge-mc1.20.1-2.5.1.jar",
+                     "sha256":  "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
+                     "size":  47428
+                 },
+                 {
+                     "name":  "Aquaculture-1.20.1-2.5.7.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Aquaculture-1.20.1-2.5.7.jar",
+                     "sha256":  "4c96cf0dd3363a8e15f9ef6b6bfc00ac7d4791e8e9eeebe19b8092c59e800f8f",
+                     "size":  601839
+                 },
+                 {
+                     "name":  "aquamirae-forge-1.20.1-6.4.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/aquamirae-forge-1.20.1-6.4.0.jar",
+                     "sha256":  "1a9c845ba2e1fe0bbf321a66453e26e62bb6b528849be2f8281db9f17a0c7aca",
+                     "size":  19073985
+                 },
+                 {
+                     "name":  "architectury-9.2.14-forge-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/architectury-9.2.14-forge-1.20.1.jar",
+                     "sha256":  "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+                     "size":  580602
+                 },
+                 {
+                     "name":  "artifacts-forge-9.5.19.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/artifacts-forge-9.5.19.jar",
+                     "sha256":  "f1e4dc786866b6e4f2a48142f2acf63bb9bee54ac2f31621ad5d8f18ab54c7b0",
+                     "size":  850974
+                 },
+                 {
+                     "name":  "balm-forge-1.20.1-7.3.37-all.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/balm-forge-1.20.1-7.3.37-all.jar",
+                     "sha256":  "7f10f01866c8316edfc1ffbc49baf1154923beac637e2d7b5399d26508fdd914",
+                     "size":  590486
+                 },
+                 {
+                     "name":  "battlemusic-1.0.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/battlemusic-1.0.2.jar",
+                     "sha256":  "9f4290afa93c87e19603d5343690ba2acf9d5e5a3f3088d543d92d0ab6605539",
+                     "size":  113527322
+                 },
+                 {
+                     "name":  "BCLib-20.0.9.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BCLib-20.0.9.jar",
+                     "sha256":  "fc495d2a7847c630012dbc62e9171a0fe8905e569aa766e39d04dabe99f31976",
+                     "size":  2177038
+                 },
+                 {
+                     "name":  "BetterAdvancements-Forge-1.20.1-0.4.2.60.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BetterAdvancements-Forge-1.20.1-0.4.2.60.jar",
+                     "sha256":  "3fef8ad83c4b99e5074a2d91f0438064751f63574152ab9d2676105803501837",
+                     "size":  98217
+                 },
+                 {
+                     "name":  "BetterEnd-20.0.8.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BetterEnd-20.0.8.jar",
+                     "sha256":  "499d0b441d20e10347bb9b226ad5e250f9d377d650d7e7ae909706a7cc473d3d",
+                     "size":  93563673
+                 },
+                 {
+                     "name":  "BetterNether-20.0.10.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BetterNether-20.0.10.jar",
+                     "sha256":  "b35c80520f8b89a507efc80130016e28da54d2f17357e49677b2b4538a544174",
+                     "size":  23322486
+                 },
+                 {
+                     "name":  "bettervillage-forge-1.20.1-3.3.1-all.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/bettervillage-forge-1.20.1-3.3.1-all.jar",
+                     "sha256":  "9e8b26db627f1eaa6f4daa3a771c5ac844ec29249bc251273df394736451d3f2",
+                     "size":  2612506
+                 },
+                 {
+                     "name":  "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+                     "sha256":  "330f482487ac3135557b6e898d7e1ae5330321e9cfd5ba63e13a16cf2e8d8b98",
+                     "size":  22381010
+                 },
+                 {
+                     "name":  "block_factorys_bosses-2.1.2-forge-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/block_factorys_bosses-2.1.2-forge-1.20.1.jar",
+                     "sha256":  "8c61087aa483f90861451682519582e03fa76e773d855e35180a8ed3428938bc",
+                     "size":  23963009
+                 },
+                 {
+                     "name":  "blue_skies-1.20.1-1.3.31.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/blue_skies-1.20.1-1.3.31.jar",
+                     "sha256":  "dda5351a7d75f8074e9878912140fd5ab2fe4e74d7678d4f9c52c0b86bce9748",
+                     "size":  83564111
+                 },
+                 {
+                     "name":  "blueprint-1.20.1-7.1.4.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/blueprint-1.20.1-7.1.4.jar",
+                     "sha256":  "41152bfac14637edbf3dd868e92c19a48c6c0a25513a2ecdada2366593c883c0",
+                     "size":  1165189
+                 },
+                 {
+                     "name":  "BOMD-Forge-1.20.1-1.1.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/BOMD-Forge-1.20.1-1.1.1.jar",
+                     "sha256":  "4530411d4cd1004f3a6ad248c6bda667c364ee4fd345ceb7a20c947ef093e3be",
+                     "size":  1751110
+                 },
+                 {
+                     "name":  "born_in_chaos_-Forge-1.20.1_1.7.5.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/born_in_chaos_-Forge-1.20.1_1.7.5.jar",
+                     "sha256":  "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d",
+                     "size":  11839865
+                 },
+                 {
+                     "name":  "Bountiful-6.0.4-1.20.1-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Bountiful-6.0.4-1.20.1-forge.jar",
+                     "sha256":  "ba171d8cf146faa138563b4b7114742e1589fc444fce7503a1779eb80a8a4765",
+                     "size":  502662
+                 },
+                 {
+                     "name":  "bygonenether-1.3.2-1.20.x.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/bygonenether-1.3.2-1.20.x.jar",
+                     "sha256":  "6518399a2bf81f85488571203a2f3589a0aac976fd0c34364489b7c356000bad",
+                     "size":  7642613
+                 },
+                 {
+                     "name":  "canary-mc1.20.1-0.3.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/canary-mc1.20.1-0.3.3.jar",
+                     "sha256":  "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942",
+                     "size":  594191
+                 },
+                 {
+                     "name":  "CerbonsApi-Forge-1.20.1-1.0.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/CerbonsApi-Forge-1.20.1-1.0.0.jar",
+                     "sha256":  "b764f411ddcf4612b27774166d227d3bc92741e1a89ac0590aa3dbba432ab249",
+                     "size":  134593
+                 },
+                 {
+                     "name":  "ChunkAnimator-1.20.1-1.3.7.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ChunkAnimator-1.20.1-1.3.7.jar",
+                     "sha256":  "374b2a05c4b346acde6de8f4718b1e6b41ad2ba7b059204526a2da8b6551a21c",
+                     "size":  35464
+                 },
+                 {
+                     "name":  "chunkanimatorembeddiumcompat-2.0.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/chunkanimatorembeddiumcompat-2.0.0.jar",
+                     "sha256":  "5dad8e5acff4c10e6b81cefb2583f87f0f19e734790b23007f0214b7c66b0467",
+                     "size":  47529
+                 },
+                 {
+                     "name":  "citadel-2.6.0-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/citadel-2.6.0-1.20.1.jar",
+                     "sha256":  "549596de295d90a84ee70625076087a9724dabca1de0567ef6ef03435aab7d5d",
+                     "size":  3173174
+                 },
+                 {
+                     "name":  "cloth-config-11.1.136-forge-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/cloth-config-11.1.136-forge-1.20.1.jar",
+                     "sha256":  "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+                     "size":  1181413
+                 },
+                 {
+                     "name":  "constructionwand-1.20.1-2.11.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/constructionwand-1.20.1-2.11.jar",
+                     "sha256":  "b55ca6f0e734bad848adb06949675136f1d05cb4fb3efdde084c9842c40e1eec",
+                     "size":  210312
+                 },
+                 {
+                     "name":  "corpse-forge-1.20.1-1.0.23.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/corpse-forge-1.20.1-1.0.23.jar",
+                     "sha256":  "8d77c5fc8dc981c750a8e66d4665f055457f748f0ce49a303d9bc50347bdbf7c",
+                     "size":  245644
+                 },
+                 {
+                     "name":  "create-1.20.1-6.0.8.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/create-1.20.1-6.0.8.jar",
+                     "sha256":  "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0",
+                     "size":  19170905
+                 },
+                 {
+                     "name":  "create-aeronautics-bundled-1.21.1-1.2.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/create-aeronautics-bundled-1.21.1-1.2.1.jar",
+                     "sha256":  "5a8c6d168ec1b47ecee7f2e83a93accbca71544d2b14ca1ca1b1271855f26248",
+                     "size":  33030286
+                 },
+                 {
+                     "name":  "CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
+                     "sha256":  "629afffc34377f27813466a5b8e9e83b5aea198462ff776780776be4693a7ead",
+                     "size":  1144069
+                 },
+                 {
+                     "name":  "creeperoverhaul-3.0.2-forge-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/creeperoverhaul-3.0.2-forge-1.20.1.jar",
+                     "sha256":  "212eb2a2d767f54fbfbac2336c63fe2bd1aae4d827ab358da329a746358b6dd9",
+                     "size":  1456860
+                 },
+                 {
+                     "name":  "cupboard-1.20.1-3.7.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/cupboard-1.20.1-3.7.jar",
+                     "sha256":  "7c6069d42e3693dc4f80d06632f008fffe6f2507902dfca6c02bf035776ccaf3",
+                     "size":  31643
+                 },
+                 {
+                     "name":  "curios-forge-5.8.1+1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/curios-forge-5.8.1+1.20.1.jar",
+                     "sha256":  "676f84eb75f943abc2f5ff89a3d6927265642047a469aa301ac51de3377e4869",
+                     "size":  380722
+                 },
+                 {
+                     "name":  "Cyclic-1.20.1-1.13.7.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Cyclic-1.20.1-1.13.7.jar",
+                     "sha256":  "477bbf91e94fc6a16fe22f958205205948877352376e86745f5213992eaf09f1",
+                     "size":  4275426
+                 },
+                 {
+                     "name":  "Darker Depths-1.20.1-2.1.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Darker.Depths-1.20.1-2.1.3.jar",
+                     "sha256":  "393cf3a6c277fa0cb5fd3c1c282f4a90927ce87cbeaf1949196a1959dfec2795",
+                     "size":  2133715
+                 },
+                 {
+                     "name":  "deeperdarker-forge-1.20.1-1.3.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/deeperdarker-forge-1.20.1-1.3.3.jar",
+                     "sha256":  "d07dc6155e0b751c7d1ec26dabb7284a41798c85e48b0d809fd1254e489ed455",
+                     "size":  17844266
+                 },
+                 {
+                     "name":  "divinerpg-1.10.7.5-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/divinerpg-1.10.7.5-1.20.1.jar",
+                     "sha256":  "ce73e2a3f97082cae1ae4afbb1b2facea0331a381b8d5d8f8e67ed27bb450030",
+                     "size":  28016649
+                 },
+                 {
+                     "name":  "ElysiumAPI-1.20.1-1.1.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ElysiumAPI-1.20.1-1.1.3.jar",
+                     "sha256":  "807095e7df50d25d400d07ed8bccca7ab12ea5a28cb8a99e077750ebbb8df765",
+                     "size":  107624
+                 },
+                 {
+                     "name":  "embeddium-0.3.31+mc1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/embeddium-0.3.31+mc1.20.1.jar",
+                     "sha256":  "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+                     "size":  1320675
+                 },
+                 {
+                     "name":  "endergetic-1.20.1-5.0.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/endergetic-1.20.1-5.0.1.jar",
+                     "sha256":  "e6afa76562e32e8b31d320095c9c27eff5557f8048723add835ba011057e14c2",
+                     "size":  15611923
+                 },
+                 {
+                     "name":  "endermanoverhaul-forge-1.20.1-1.0.4.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/endermanoverhaul-forge-1.20.1-1.0.4.jar",
+                     "sha256":  "18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5",
+                     "size":  1208062
+                 },
+                 {
+                     "name":  "endersdelight-forge-1.20.1-1.1.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/endersdelight-forge-1.20.1-1.1.3.jar",
+                     "sha256":  "d262e71af4d811208b6ddca243356367a0a8c6d46361dcdaf6217a0c651c9b96",
+                     "size":  179456
+                 },
+                 {
+                     "name":  "endrem_forge-5.3.3-R-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/endrem_forge-5.3.3-R-1.20.1.jar",
+                     "sha256":  "19295ca4a798f2e813f359fa376f586bc57fadacd78b7e32440257f9f8bf2557",
+                     "size":  889634
+                 },
+                 {
+                     "name":  "entityculling-forge-1.10.2-mc1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/entityculling-forge-1.10.2-mc1.20.1.jar",
+                     "sha256":  "34da8e10cf31ade2b86b02e4f55c4d3b480a0992148ac12f9ec49eb7be4bfda0",
+                     "size":  1587585
+                 },
+                 {
+                     "name":  "ExplorersCompass-1.20.1-1.4.0-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ExplorersCompass-1.20.1-1.4.0-forge.jar",
+                     "sha256":  "0d9a7705f39a9eac19c33e0fbe5422280048991a341dc0d9471bff32111c502c",
+                     "size":  174387
+                 },
+                 {
+                     "name":  "FarmersDelight-1.20.1-1.3.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/FarmersDelight-1.20.1-1.3.2.jar",
+                     "sha256":  "47aed94bb9192c4978fe199f9d3ca5895aeccfbe5b5a0869fdf3aa011c2641f7",
+                     "size":  3313327
+                 },
+                 {
+                     "name":  "farmersrespite-1.20.1-2.1.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/farmersrespite-1.20.1-2.1.2.jar",
+                     "sha256":  "21c15ef71f66684cbd94080e04649741bdf2b2ea6a6d542783e8961365d090bb",
+                     "size":  537307
+                 },
+                 {
+                     "name":  "FastSuite-1.20.1-5.1.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/FastSuite-1.20.1-5.1.0.jar",
+                     "sha256":  "326932853763885ed703d8969a62c459235d6b4a2b6a194535feb3daca484f84",
+                     "size":  25305
+                 },
+                 {
+                     "name":  "ferritecore-6.0.1-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ferritecore-6.0.1-forge.jar",
+                     "sha256":  "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+                     "size":  123034
+                 },
+                 {
+                     "name":  "flib-1.20.1-0.0.16.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/flib-1.20.1-0.0.16.jar",
+                     "sha256":  "5736fd8a36fb3c69f99bae3127fb3743b68c801ffbab71a876c2a203a2c19e0e",
+                     "size":  276850
+                 },
+                 {
+                     "name":  "ftb-library-forge-2001.2.12.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ftb-library-forge-2001.2.12.jar",
+                     "sha256":  "f09335944fff8ca3ef37a40e0b125ffb6707759ede258c73f9ce9bac61bfbf96",
+                     "size":  780523
+                 },
+                 {
+                     "name":  "ftb-quests-forge-2001.4.22.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ftb-quests-forge-2001.4.22.jar",
+                     "sha256":  "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
+                     "size":  1255469
+                 },
+                 {
+                     "name":  "ftb-teams-forge-2001.3.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ftb-teams-forge-2001.3.2.jar",
+                     "sha256":  "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+                     "size":  252579
+                 },
+                 {
+                     "name":  "ftb-xmod-compat-forge-2.1.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ftb-xmod-compat-forge-2.1.3.jar",
+                     "sha256":  "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72",
+                     "size":  129725
+                 },
+                 {
+                     "name":  "Galosphere-1.20.1-1.4.1-Forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Galosphere-1.20.1-1.4.1-Forge.jar",
+                     "sha256":  "f21385ca7512ba15bd66ac345e60d85916cba9686061892f8f89548aaaeadb96",
+                     "size":  34909449
+                 },
+                 {
+                     "name":  "GatewaysToEternity-1.20.1-4.2.6.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/GatewaysToEternity-1.20.1-4.2.6.jar",
+                     "sha256":  "f6101d9f11b1aed6f97473b797b47201d03d8a9dcb2294f4bcb9d5f5cdbf413f",
+                     "size":  632950
+                 },
+                 {
+                     "name":  "geckolib-forge-1.20.1-4.8.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/geckolib-forge-1.20.1-4.8.3.jar",
+                     "sha256":  "8b90e11871a58b63816e99c529e6c932bc88e6beb3fec97ad618e22217df3250",
+                     "size":  1039046
+                 },
+                 {
+                     "name":  "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+                     "sha256":  "e42a8b513da08a910c133caeafad9fc2fcc22fdaaa2eb3e2516e9112a5a0db61",
+                     "size":  87550
+                 },
+                 {
+                     "name":  "HammerLib-1.20.1-20.1.50.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/HammerLib-1.20.1-20.1.50.jar",
+                     "sha256":  "118a192c8c215436d75bb7c64120dba7db37695ed0d823f6b4c0ba08d09325bf",
+                     "size":  2445389
+                 },
+                 {
+                     "name":  "huge-structure-blocks-1.0.9-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/huge-structure-blocks-1.0.9-forge.jar",
+                     "sha256":  "848ba9449efd560abde9484693643f316dcce1e900a5fff98e528f7574d58387",
+                     "size":  97616
+                 },
+                 {
+                     "name":  "IllagerInvasion-v8.0.7-1.20.1-Forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/IllagerInvasion-v8.0.7-1.20.1-Forge.jar",
+                     "sha256":  "790d52067b30e85ff0dcc4131cf709f9f45c619bdc6b6ff11ed8ac4e3f61acda",
+                     "size":  2341695
+                 },
+                 {
+                     "name":  "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+                     "sha256":  "da781a31b2c8d8a845ed48c89b6463f1df3f2c655de10d8d4f5bed8123ff68a8",
+                     "size":  538992
+                 },
+                 {
+                     "name":  "immersive_paintings-0.6.13-1.20.1-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/immersive_paintings-0.6.13-1.20.1-forge.jar",
+                     "sha256":  "069d5dffa4060d965899e607fad725c4d80a8086cef64f1d7563259b0a070633",
+                     "size":  4856103
+                 },
+                 {
+                     "name":  "ItemPhysic_FORGE_v1.8.13_mc1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/ItemPhysic_FORGE_v1.8.13_mc1.20.1.jar",
+                     "sha256":  "2db15be22b848c3f937b6d30dd8875a6cd4e42776242092ac9a3c4f1f01bef4c",
+                     "size":  55792
+                 },
+                 {
+                     "name":  "Jade-1.20.1-Forge-11.13.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Jade-1.20.1-Forge-11.13.2.jar",
+                     "sha256":  "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5",
+                     "size":  552486
+                 },
+                 {
+                     "name":  "Jadens-Nether-Expansion-2.3.5.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Jadens-Nether-Expansion-2.3.5.jar",
+                     "sha256":  "97c9c1271c3f551663592b689771e45d63098e674899596d693641b82ecf5ccb",
+                     "size":  23488061
+                 },
+                 {
+                     "name":  "jecalculation-forge-1.20.1-4.0.4.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/jecalculation-forge-1.20.1-4.0.4.jar",
+                     "sha256":  "dec055d12731ba61584d308d304cbe37033e31e67d2cfc83bb662114e4e033d6",
+                     "size":  361918
+                 },
+                 {
+                     "name":  "jeed-1.20-2.2.5.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/jeed-1.20-2.2.5.jar",
+                     "sha256":  "841dee59c98c1b490073866a47dbd77f13125d425a8c6a8e850cf8c43e699a83",
+                     "size":  159288
+                 },
+                 {
+                     "name":  "jei-1.20.1-forge-15.20.0.130.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/jei-1.20.1-forge-15.20.0.130.jar",
+                     "sha256":  "36d3dfb2214b9dca38c447fd971dd2dedc5f69719a5aca6ffcef69b2840ece0a",
+                     "size":  1409705
+                 },
+                 {
+                     "name":  "jeiintegration_1.20.1-10.0.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/jeiintegration_1.20.1-10.0.0.jar",
+                     "sha256":  "0d83bcb477d761a73cdbb37f723a5d994e61a389340e219e5ce8dc9618be933e",
+                     "size":  26940
+                 },
+                 {
+                     "name":  "journeymap-1.20.1-5.10.3-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/journeymap-1.20.1-5.10.3-forge.jar",
+                     "sha256":  "8b2679b7b4881e0aa430fd24345ea446de919faf8a45bd2a71d37c7e8ff6ae1e",
+                     "size":  7160405
+                 },
+                 {
+                     "name":  "justenoughbreeding-forge-1.20.1-3.0.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/justenoughbreeding-forge-1.20.1-3.0.1.jar",
+                     "sha256":  "6d443123a7b2159b2e64545bb50109b359c72103b8c511390e7dde58e3b7c518",
+                     "size":  597960
+                 },
+                 {
+                     "name":  "JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+                     "sha256":  "13e2012375d16663192cf67f5e4139335e5dcbeaf2adf7e8a4816b013802f96a",
+                     "size":  24607
+                 },
+                 {
+                     "name":  "justzoom_forge_2.1.1_MC_1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/justzoom_forge_2.1.1_MC_1.20.1.jar",
+                     "sha256":  "778c75c388a8dffed5bfad25ab9a420dfd6c4ec3bdc1699ec6c2bab2336b5040",
+                     "size":  204574
+                 },
+                 {
+                     "name":  "Kambrik-6.1.1+1.20.1-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Kambrik-6.1.1+1.20.1-forge.jar",
+                     "sha256":  "37d0c2b03a1f3aacb30498d67c35adaca99dc9ecd30f66f383016f4cbc85be8e",
+                     "size":  325546
+                 },
+                 {
+                     "name":  "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+                     "sha256":  "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b",
+                     "size":  625185
+                 },
+                 {
+                     "name":  "kotlinforforge-4.12.0-all.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/kotlinforforge-4.12.0-all.jar",
+                     "sha256":  "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
+                     "size":  7442998
+                 },
+                 {
+                     "name":  "kubejs-forge-2001.6.5-build.26.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/kubejs-forge-2001.6.5-build.26.jar",
+                     "sha256":  "1769312192fbf9d72f45054ba61130523bfb471b5f480a4bff8c210ec09400bb",
+                     "size":  1658792
+                 },
+                 {
+                     "name":  "L_Enders_Cataclysm-3.28-optimization.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/L_Enders_Cataclysm-3.28-optimization.jar",
+                     "sha256":  "c786603ecc395d3e35f174b6313b835afb3abd4491acc7887b0dfcabdae82d58",
+                     "size":  73914394
+                 },
+                 {
+                     "name":  "legendarycreatures-1.20.1-1.1.2.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/legendarycreatures-1.20.1-1.1.2.1.jar",
+                     "sha256":  "75a09c9d59899e59000d36ed7b3aa5bc20dab12b6afe834036fba34b43bea382",
+                     "size":  3582465
+                 },
+                 {
+                     "name":  "legendarymonsters-2.1.20 MC 1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/legendarymonsters-2.1.20.MC.1.20.1.jar",
+                     "sha256":  "61494573295cda4240eb11dd8e991b84a4597e303c0f28f3dcc77f969b436b1b",
+                     "size":  44855367
+                 },
+                 {
+                     "name":  "libraryferret-forge-1.20.1-4.0.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/libraryferret-forge-1.20.1-4.0.0.jar",
+                     "sha256":  "355f5000b56d6f355338bd494fcdb822f36e29cf9e3c27ebcc7720402a804510",
+                     "size":  190536
+                 },
+                 {
+                     "name":  "lionfishapi-3.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/lionfishapi-3.0.jar",
+                     "sha256":  "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871",
+                     "size":  101931
+                 },
+                 {
+                     "name":  "lucent-1.20.1-1.5.5.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/lucent-1.20.1-1.5.5.jar",
+                     "sha256":  "dc5fd7883dabcdaf3bf5ba02d8f20f2974df20edc6ce7a05e788d998fd3ef152",
+                     "size":  225245
+                 },
+                 {
+                     "name":  "majrusz-library-forge-1.20.1-7.0.8.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/majrusz-library-forge-1.20.1-7.0.8.jar",
+                     "sha256":  "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548",
+                     "size":  437340
+                 },
+                 {
+                     "name":  "mcef-forge-2.1.6-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/mcef-forge-2.1.6-1.20.1.jar",
+                     "sha256":  "5c462342264ac89597891d5d4bcdf6b8134ce4cc5dd97894dbd87ecc197f0cb3",
+                     "size":  218417
+                 },
+                 {
+                     "name":  "midnight-1.20.1-0.6.7.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/midnight-1.20.1-0.6.7.jar",
+                     "sha256":  "252ad68dac3dbc8b1f7885edccb563becb26ce2fe4abf4f2713a3869b9bff820",
+                     "size":  27285160
+                 },
+                 {
+                     "name":  "modernfix-forge-5.27.40+mc1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/modernfix-forge-5.27.40+mc1.20.1.jar",
+                     "sha256":  "0061a53c0335693318073788c57c5288f5b8b5b3918c7561f5fb7860a394611f",
+                     "size":  970410
+                 },
+                 {
+                     "name":  "moonlight-1.20-2.16.33-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/moonlight-1.20-2.16.33-forge.jar",
+                     "sha256":  "b62559ebd7b23c2ac629403ac91573290957322cffb9437d3beff687ab55d4a8",
+                     "size":  1397030
+                 },
+                 {
+                     "name":  "NaturesCompass-1.20.1-1.12.0-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/NaturesCompass-1.20.1-1.12.0-forge.jar",
+                     "sha256":  "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197",
+                     "size":  227495
+                 },
+                 {
+                     "name":  "nethersdelight-1.20.1-4.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/nethersdelight-1.20.1-4.0.jar",
+                     "sha256":  "28b072bc5c09ee889468546676c9bf0268eaa415865704bbeeb33f6a37005a30",
+                     "size":  366047
+                 },
+                 {
+                     "name":  "noisium-forge-2.3.0-mc1.20-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/noisium-forge-2.3.0-mc1.20-1.20.1.jar",
+                     "sha256":  "b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c",
+                     "size":  218152
+                 },
+                 {
+                     "name":  "obscure_api-18.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/obscure_api-18.jar",
+                     "sha256":  "14f099e9b8c1cae0c98b5ccb792d5eaf56b71c456cf2c2d59de3c175be3e3b7e",
+                     "size":  1128392
+                 },
+                 {
+                     "name":  "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+                     "sha256":  "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047",
+                     "size":  424035
+                 },
+                 {
+                     "name":  "oculus-mc1.20.1-1.8.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/oculus-mc1.20.1-1.8.0.jar",
+                     "sha256":  "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+                     "size":  2851119
+                 },
+                 {
+                     "name":  "Patchouli-1.20.1-85-FORGE.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Patchouli-1.20.1-85-FORGE.jar",
+                     "sha256":  "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
+                     "size":  642732
+                 },
+                 {
+                     "name":  "phantasm-1.1.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/phantasm-1.1.2.jar",
+                     "sha256":  "2a9d6bcc68185fecf8be42d54d699d991e12ea41e2538ac7c936a5d11cfc740c",
+                     "size":  7008954
+                 },
+                 {
+                     "name":  "Placebo-1.20.1-8.6.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Placebo-1.20.1-8.6.2.jar",
+                     "sha256":  "1fcacfb17c4f5f3880d99a1bf29c76bc2d6bf6ed6e02ca8051a3b6eee4c99c5a",
+                     "size":  285351
+                 },
+                 {
+                     "name":  "Platform-forge-1.20.1-1.2.6.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Platform-forge-1.20.1-1.2.6.jar",
+                     "sha256":  "db451c2ec149286ed2d2c216a1735d4b6a83df0e52279cbd7f755bc25c6c07cb",
+                     "size":  389572
+                 },
+                 {
+                     "name":  "polymorph-forge-0.49.10-1.20.1 (1).jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/polymorph-forge-0.49.10-1.20.1.(1).jar",
+                     "sha256":  "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f",
+                     "size":  299601
+                 },
+                 {
+                     "name":  "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+                     "sha256":  "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f",
+                     "size":  1342987
+                 },
+                 {
+                     "name":  "Quark-4.0-462.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Quark-4.0-462.jar",
+                     "sha256":  "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478",
+                     "size":  14935230
+                 },
+                 {
+                     "name":  "rarcompat-1.20.1-0.5.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/rarcompat-1.20.1-0.5.jar",
+                     "sha256":  "2de2a9cfd21edf676072ca7432ff9acdd28f8e077fcac90a46d3dea8f82bf9f1",
+                     "size":  409926
+                 },
+                 {
+                     "name":  "relics-1.20.1-0.8.0.13.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/relics-1.20.1-0.8.0.13.jar",
+                     "sha256":  "2731d3b81533564c5d206faf94e4e8afaf928d97b47b720e5d6aaa017333096f",
+                     "size":  1521089
+                 },
+                 {
+                     "name":  "repurposed_structures-7.1.23+1.20.1-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/repurposed_structures-7.1.23+1.20.1-forge.jar",
+                     "sha256":  "cdb099d1724c9a1423f3bfadfd6e9db0d3cefef11c651ea3625d0efed4ded35e",
+                     "size":  8229864
+                 },
+                 {
+                     "name":  "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+                     "sha256":  "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded",
+                     "size":  136923
+                 },
+                 {
+                     "name":  "resourcefullib-forge-1.20.1-2.1.29.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/resourcefullib-forge-1.20.1-2.1.29.jar",
+                     "sha256":  "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8",
+                     "size":  432753
+                 },
+                 {
+                     "name":  "rhino-forge-2001.2.3-build.10.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/rhino-forge-2001.2.3-build.10.jar",
+                     "sha256":  "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6",
+                     "size":  1798244
+                 },
+                 {
+                     "name":  "rottencreatures-forge-1.20.1-1.1.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/rottencreatures-forge-1.20.1-1.1.0.jar",
+                     "sha256":  "cbf97ceeb4378b493884fc49fb668098edaca135dad81db548dea6f4c324e81b",
+                     "size":  2595007
+                 },
+                 {
+                     "name":  "Searchables-forge-1.20.1-1.0.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Searchables-forge-1.20.1-1.0.3.jar",
+                     "sha256":  "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576",
+                     "size":  77732
+                 },
+                 {
+                     "name":  "SereneSeasons-forge-1.20.1-9.1.0.2.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/SereneSeasons-forge-1.20.1-9.1.0.2.jar",
+                     "sha256":  "c4f1b6bcbd2c4fd8c54866cc217f455d2e8262e35ac218f8fb628c79bc76ff8e",
+                     "size":  160887
+                 },
+                 {
+                     "name":  "silent-lib-1.20.1-8.0.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/silent-lib-1.20.1-8.0.0.jar",
+                     "sha256":  "9ca45fb6d723474d145227bed27dd1791cca30ac96fd8f05084417b0779e0e01",
+                     "size":  225949
+                 },
+                 {
+                     "name":  "simulation-0.1.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/simulation-0.1.0.jar",
+                     "sha256":  "e7ee525838682597aa888451299ef99ce96bae2a0bf6a37c2ae77ee3aed2e0f3",
+                     "size":  4592597
+                 },
+                 {
+                     "name":  "SmartBrainLib-forge-1.20.1-1.15.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/SmartBrainLib-forge-1.20.1-1.15.jar",
+                     "sha256":  "665f65f77cc36379a9ae11c09db5d9efa1ad4f8d017edc8f65903ff27cacdb1d",
+                     "size":  362338
+                 },
+                 {
+                     "name":  "SolarFluxReborn-1.20.1-20.1.11.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/SolarFluxReborn-1.20.1-20.1.11.jar",
+                     "sha256":  "b8460262e2e657af8ce5ea4dd85fae5e611c7685e363d58c0f4389765ff1d463",
+                     "size":  286313
+                 },
+                 {
+                     "name":  "sons-of-sins-1.20.1-2.1.11.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/sons-of-sins-1.20.1-2.1.11.jar",
+                     "sha256":  "48a35919c2905f3556b8b502787caab1292ef5b85450bb52fdd514517d1d06eb",
+                     "size":  10195482
+                 },
+                 {
+                     "name":  "sophisticatedbackpacks-1.20.1-3.24.43.1789.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/sophisticatedbackpacks-1.20.1-3.24.43.1789.jar",
+                     "sha256":  "fb516ea37e837ea6539308b4bcfaafe2328f259c453e88b9de5ed3f506183aec",
+                     "size":  1052185
+                 },
+                 {
+                     "name":  "sophisticatedcore-1.20.1-1.3.37.1870.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/sophisticatedcore-1.20.1-1.3.37.1870.jar",
+                     "sha256":  "eaef425ad1767c7d91fb2e405dba2da1fc1e868d8e6c86375f3a55d9e75b6bca",
+                     "size":  1566112
+                 },
+                 {
+                     "name":  "spark-1.10.53-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/spark-1.10.53-forge.jar",
+                     "sha256":  "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed",
+                     "size":  3114590
+                 },
+                 {
+                     "name":  "spawnerhead-1.20.1-2.2.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/spawnerhead-1.20.1-2.2.1.jar",
+                     "sha256":  "5f045b5e9bdac0d3724e36912b1e59b95f5d0c0e6c34e234b12f896489da0c8e",
+                     "size":  113435
+                 },
+                 {
+                     "name":  "spiceoflife-0.0.3-1.20.1_1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/spiceoflife-0.0.3-1.20.1_1.jar",
+                     "sha256":  "6ac0a0bf55efb3bff88b8e56b1592d51c97739fca925ffce678775e9036e0863",
+                     "size":  30294
+                 },
+                 {
+                     "name":  "starlight-1.1.2+forge.1cda73c.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/starlight-1.1.2+forge.1cda73c.jar",
+                     "sha256":  "e90763c86d362c7cb427dbb70e89985c11a882fdd69ae7d04ac2e23a106eb500",
+                     "size":  110583
+                 },
+                 {
+                     "name":  "structure_gel-1.20.1-2.16.0.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/structure_gel-1.20.1-2.16.0.jar",
+                     "sha256":  "13ba36ec4805ddee02a5adf34a7141320b5e1fbcaa8ce9a26d06da276a9ddc90",
+                     "size":  961824
+                 },
+                 {
+                     "name":  "supplementaries-1.20-3.1.43-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/supplementaries-1.20-3.1.43-forge.jar",
+                     "sha256":  "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a",
+                     "size":  13667742
+                 },
+                 {
+                     "name":  "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+                     "sha256":  "c109016f46ca9bdae69976bf080bbf2e8e5968cb66c0a78845f8ca6af5dbbeb1",
+                     "size":  107532
+                 },
+                 {
+                     "name":  "The_Undergarden-1.20.1-0.8.14.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/The_Undergarden-1.20.1-0.8.14.jar",
+                     "sha256":  "43029e388ab455f8c9bcfc8653b9a57a3eb1ff6b435cf6e58722d2d4c50d2444",
+                     "size":  45084263
+                 },
+                 {
+                     "name":  "THEUNDEADREVAMPED_1.9O_1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/THEUNDEADREVAMPED_1.9O_1.20.1.jar",
+                     "sha256":  "f45325552c8ac5de7f2cfcee6011ba33065ec0ed9921701fe52a60a5175c23db",
+                     "size":  8010436
+                 },
+                 {
+                     "name":  "threateningly_mobs-1.1.1-forge-1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/threateningly_mobs-1.1.1-forge-1.20.1.jar",
+                     "sha256":  "c67640d6c41f24a28d0b2d2a48dd6014b24242ef1b1e4d6fda349d48df48c5a6",
+                     "size":  10136081
+                 },
+                 {
+                     "name":  "tru.e-ending-v1.1.0c.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/tru.e-ending-v1.1.0c.jar",
+                     "sha256":  "3bf63a4ed7cb9a75727da2301fe0642ce74c9e0384cdb79e9b3570d3ab320aaa",
+                     "size":  5525883
+                 },
+                 {
+                     "name":  "twilightforest-1.20.1-4.3.2508-universal.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/twilightforest-1.20.1-4.3.2508-universal.jar",
+                     "sha256":  "0bdc89263616d1b35c32ef82c5e9c14cbd20368e2fe8b468c72a28320be7a778",
+                     "size":  23332091
+                 },
+                 {
+                     "name":  "variantsandventures-forge-1.0.26+mc1.20.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/variantsandventures-forge-1.0.26+mc1.20.1.jar",
+                     "sha256":  "5a644f3aadbc24908d11dce61f40a6dc8ef8ff9270e55753b1302992a717eb5c",
+                     "size":  1270628
+                 },
+                 {
+                     "name":  "visual_keybinder-1.20.1 - 0.1.12.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/visual_keybinder-1.20.1.-.0.1.12.jar",
+                     "sha256":  "9dadb23df8b1b232499565bc486220af6f81f62d2bfe6fe6e9deeb9502df0847",
+                     "size":  258438
+                 },
+                 {
+                     "name":  "VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+                     "sha256":  "915f226fa14ce274879487dd14f38af5c57e1a9ada85099501134c4c8a03897a",
+                     "size":  82557
+                 },
+                 {
+                     "name":  "Voidscape-1.20.1-1.5.389.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Voidscape-1.20.1-1.5.389.jar",
+                     "sha256":  "c3eb2cc621c035460652f71ecaa80f54db1bc69f8440538f904baf46a96411a8",
+                     "size":  1844868
+                 },
+                 {
+                     "name":  "waystones-forge-1.20.1-14.1.20.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/waystones-forge-1.20.1-14.1.20.jar",
+                     "sha256":  "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd",
+                     "size":  533738
+                 },
+                 {
+                     "name":  "worldedit-mod-7.2.15.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/worldedit-mod-7.2.15.jar",
+                     "sha256":  "17db6b3e94f52d25426684663e1e1846823cbb7907f1c365ac329e5bc7bfaf2c",
+                     "size":  5825402
+                 },
+                 {
+                     "name":  "WunderLib-20.0.1.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/WunderLib-20.0.1.jar",
+                     "sha256":  "33d30150d69f0b1f1b077dab0edbefdca5e274bfa9a56578c6fe35d4dc62ccbd",
+                     "size":  227846
+                 },
+                 {
+                     "name":  "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+                     "sha256":  "bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f",
+                     "size":  1105891
+                 },
+                 {
+                     "name":  "YungsApi-1.20-Forge-4.0.6.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsApi-1.20-Forge-4.0.6.jar",
+                     "sha256":  "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1",
+                     "size":  370524
+                 },
+                 {
+                     "name":  "YungsBetterCaves-1.20.1-Forge-2.0.5.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterCaves-1.20.1-Forge-2.0.5.jar",
+                     "sha256":  "bd1e07e03626ad851e7b84e5a8a6ecdd976f7e923a3e56df69c6b6e906e7389e",
+                     "size":  401492
+                 },
+                 {
+                     "name":  "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+                     "sha256":  "5a74294725232c665b908af6e25224d111550cf69d74613e415b9f48ff150d16",
+                     "size":  918012
+                 },
+                 {
+                     "name":  "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+                     "sha256":  "93c24e4075c51da0866f3fc92322bdb60e590ac2cd78dce275460839c54c36f5",
+                     "size":  792381
+                 },
+                 {
+                     "name":  "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+                     "sha256":  "05c2f43a67116f0bbca32d903b55ce1655b9319ed6554080de02bd1d0c232a83",
+                     "size":  387111
+                 },
+                 {
+                     "name":  "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+                     "sha256":  "728c0a807742356887edf7d4f736b3870b7c84007ec9c495c27da1dc0b61078d",
+                     "size":  806652
+                 },
+                 {
+                     "name":  "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+                     "sha256":  "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc",
+                     "size":  492998
+                 },
+                 {
+                     "name":  "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+                     "sha256":  "12cffc99dccca69d294ba5bc39c331367794b339061572a6f3773620303a2f51",
+                     "size":  619255
+                 },
+                 {
+                     "name":  "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+                     "sha256":  "bea2640c4afeb5231362a756d886ca4f246c7951175c91348272b3ce5d483bae",
+                     "size":  1033262
+                 },
+                 {
+                     "name":  "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+                     "sha256":  "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4",
+                     "size":  473564
+                 },
+                 {
+                     "name":  "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+                     "sha256":  "24b3bdc844755e8a39571b5000d8dd829543f7b150d154016ccd926e47d06a71",
+                     "size":  179190
+                 },
+                 {
+                     "name":  "YungsBridges-1.20-Forge-4.0.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsBridges-1.20-Forge-4.0.3.jar",
+                     "sha256":  "728e49e81a088291c75835130f59357fe772d77c1f2de91c63872579d5485f6c",
+                     "size":  136236
+                 },
+                 {
+                     "name":  "YungsCaveBiomes-1.20.1-Forge-2.0.5.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsCaveBiomes-1.20.1-Forge-2.0.5.jar",
+                     "sha256":  "b799668cbbc0903e885f5b638119d0221186e5dbfe812eaf391f86ab8a97bd42",
+                     "size":  13014967
+                 },
+                 {
+                     "name":  "YungsExtras-1.20-Forge-4.0.3.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/YungsExtras-1.20-Forge-4.0.3.jar",
+                     "sha256":  "3def0d66debef6185df82f6b777ec382a59dc66da47c8f081e69cc059da1d98d",
+                     "size":  200341
+                 },
+                 {
+                     "name":  "Zeta-1.0-31.jar",
+                     "url":  "https://github.com/kaish1ro/SimulationModPack/releases/download/PreAlpha/Zeta-1.0-31.jar",
+                     "sha256":  "cd1786902a79434f8fd762d741019d9c8a79725fef7e30a89c153c934e1e6a9e",
+                     "size":  1006518
+                 }
+             ]
 }

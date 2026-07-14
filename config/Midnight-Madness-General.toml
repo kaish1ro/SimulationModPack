@@ -1,0 +1,42 @@
+
+[Souls]
+	"Soul/Dark Soul drop chance, % [default=6]" = 0.0
+	"(Soul Harvest) Soul/Dark Soul drop chance, % [default=13]" = 0.0
+	"Soul escape chance, per second, % [default=6]" = 0.0
+	"(Soul Harvest) Soul escape chance, per second, % [default=13]" = 0.0
+	"Dark Soul escape chance, per second, % [default=6]" = 0.0
+	"(Soul Harvest) Dark Soul escape chance, per second, % [default=13]" = 0.0
+	"Horrifying Soul escape chance, per second, % [default=2]" = 0.0
+	"(Soul Harvest) Horrifying Soul escape chance, per second, % [default=4]" = 0.0
+	"Dragon Soul escape chance, per second, % [default=2]" = 0.0
+	"(Soul Harvest) Dragon Soul escape chance, per second, % [default=4]" = 0.0
+
+[Demons]
+	"Chance that a lost Dark Soul will turn into Fiend, % [default=50]" = 0.0
+	"(Soul Harvest) Chance that a lost Dark Soul will turn into Fiend, % [default=70]" = 0.0
+	"(Totem of Undying) Reaper spawn chance, % [default=50]" = 0.0
+	"(Human is low health) Reaper spawn chance, % [default=10]" = 0.0
+	"(Human is low health) Delay before Reaper tries to spawn, seconds [default=10]" = 0.0
+	"Reaper can spawn when Totem of Undying is activated [default=true]" = false
+	"Reaper can spawn when human is low health [default=true]" = false
+	"Dreamcatcher spawn chance when player goes to bed, % [default=5]" = 0.0
+	"Dreamcatcher spawn chance when player goes to bed during Soul Harvest, % [default=10]" = 0.0
+	"Time before another Dreamcatcher can spawn, minutes [default=10]" = 0.0
+	"Day when the Reapers will start spawning [default=5]" = 0.0
+	"Day when the Dreamcatchers will start spawning [default=6]" = 0.0
+
+["Chat messages"]
+	"???'s tips in chat [default=true]" = false
+	"Cursed Altar's whispers in chat [default=true]" = false
+	"Restless Souls' cryings in chat [default=true]" = false
+	"Skeleton King's messages in chat [default=true]" = false
+	"Demon King's messages in chat [default=true]" = false
+	"Welcoming message in chat [default=true]" = false
+	"Welcoming message cooldown, minutes [default=60]" = 0.0
+
+[Other]
+	"Soul Harvest event [default=true]" = false
+	"Soul Harvest event: start sound [default=true]" = false
+	"Soul Harvest event: end sound [default=true]" = false
+	"Apotropaion's ability cooldown, minutes [default=6]" = 0.0
+

@@ -1,0 +1,234 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter6"
+	group: ""
+	icon: {
+		Count: 1
+		id: "twilightforest:lamp_of_cinders"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4EB13652280B5863"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000001047"]
+			description: [
+				"Дракон пал. Но это не конец."
+				"Кристалл в твоих руках резонирует с чем-то за пределами известного мира."
+				"Открой проход."
+			]
+			id: "35F3D07D11C764D7"
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "3C63560880406D9B"
+				type: "advancement"
+			}]
+			title: "Сумеречный лес"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35F3D07D11C764D7"]
+			description: [
+				"Что-то древнее охраняет этот двор."
+				"Оно не потерпит чужаков."
+			]
+			id: "561B58EB3A41BDAA"
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "2AD87DB108326D90"
+				type: "advancement"
+			}]
+			title: "Нага"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["561B58EB3A41BDAA"]
+			description: [
+				"Башня хранит того, кто не умер до конца."
+				"Три жезла. Три испытания. Одна смерть — уже вторая для него."
+			]
+			id: "7E219FB1387AF57D"
+			rewards: [{
+				id: "725A12BFAFFD7DE8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "3DC8A49A91E3D36C"
+				type: "advancement"
+			}]
+			title: "Лич"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E219FB1387AF57D"]
+			description: [
+				"Лабиринт не отпускает случайно забредших."
+				"Внизу — то, что когда-то было человеком. И грибом."
+			]
+			id: "626596C820B2FB6E"
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "185C88A5BCBD3502"
+				type: "advancement"
+			}]
+			title: "Лабиринт"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["626596C820B2FB6E"]
+			description: [
+				"Три головы. Три пасти. Одна цель — не пустить тебя дальше."
+				"У болота свои законы."
+			]
+			id: "6913DB606F99BD66"
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "36C9AD3B538FD02B"
+				type: "advancement"
+			}]
+			title: "Гидра"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E219FB1387AF57D"]
+			description: [
+				"Замок ещё закрыт. Но его стражи — уже нет."
+				"Рыцари-призраки не спрашивают, зачем ты пришёл."
+			]
+			id: "525098989AFB4169"
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "7F6F5A1B5CB8914F"
+				type: "advancement"
+			}]
+			title: "Рыцари-призраки"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Ловушка поймала не тебя. Она поймала его."
+				"То, что вырвалось наружу, больше не помнит, чем было."
+			]
+			id: "3FD4D76A6CED66DA"
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "511346250170287E"
+				type: "advancement"
+			}]
+			title: "Ур-Гаст"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E219FB1387AF57D"]
+			description: [
+				"Холод здесь — не погода. Это стража."
+				"Альфа не отступает."
+			]
+			id: "2F47039A110386EF"
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "7A1EF36928E6C010"
+				type: "advancement"
+			}]
+			title: "Альфа-йети"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Дворец льда подчиняется одной хозяйке."
+				"Она правит без права на пощаду."
+			]
+			id: "6623317B4EA88922"
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "3759441E2656011C"
+				type: "advancement"
+			}]
+			title: "Снежная королева"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3FD4D76A6CED66DA"
+				"6623317B4EA88922"
+			]
+			description: [
+				"Три победы, добытые по отдельности, сходятся в одну точку."
+				"Что-то в этом мире наконец согласилось признать тебя."
+			]
+			id: "4D469F8C1A4B9E9E"
+			rewards: [{
+				id: "4E3CE06C4CC3950F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+				id: "46DF97A202BF03FE"
+				type: "advancement"
+			}]
+			title: "Слияние"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D469F8C1A4B9E9E"]
+			description: [
+				"Тролли хранили этот свет не просто так."
+				"Пламя внутри лампы поджигает то, что раньше нельзя было тронуть."
+				"Шипы, закрывающие путь дальше, больше не преграда."
+				"Дальше — тишина. Карта здесь заканчивается."
+			]
+			id: "1EB0145EA0319519"
+			rewards: [
+				{
+					count: 3
+					id: "792067520511D230"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "094A04104170CB21"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "7E930F633F84D08B"
+				type: "advancement"
+			}]
+			title: "Лампа Углей"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "Глава VI: Сумеречный лес"
+}

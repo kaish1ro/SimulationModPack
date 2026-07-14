@@ -65,9 +65,9 @@
 	#Disables the Aether's menu music in case another mod implements its own, only works if 'Disables Aether music manager' is false
 	"Disables Aether menu music" = false
 	#Disables the menu music on the vanilla world preview menu, only works if 'Disables Aether music manager' is false
-	"Disables vanilla world preview menu music" = false
+	"Disables vanilla world preview menu music" = true
 	#Disables the menu music on the Aether world preview menu, only works if 'Disables Aether music manager' is false
-	"Disables Aether world preview menu music" = false
+	"Disables Aether world preview menu music" = true
 
 [Miscellaneous]
 	#Disables the Cumulus menu selection screen button on launch

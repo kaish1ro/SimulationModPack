@@ -21,6 +21,9 @@ journeymap/
 rhino.local.properties
 options.txt
 
+# Generated after Visual Keybinder applies the bundled first-start preset.
+visual_keybinder/initialized.dat
+
 # ── Patchouli runtime данные (генерируется в игре) ────────────────────────────
 patchouli_data.json
 
@@ -31,6 +34,17 @@ patchouli_data.json
 *.rar
 *.zip
 *.7z
+
+# Packaged resource packs are release assets, not temporary archives.
+!resourcepacks/
+!resourcepacks/*.zip
+
+# Per-user runtime data and extracted tool caches.
+config/jei/world/
+config/spark/activity.json
+config/worldedit/.archive-unpack/
+immersive_paintings/
+immersive_paintings_cache/
 
 # ── OS / IDE мусор ────────────────────────────────────────────────────────────
 .DS_Store

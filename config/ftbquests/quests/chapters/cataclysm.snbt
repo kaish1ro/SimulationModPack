@@ -3,82 +3,374 @@
 	default_quest_shape: ""
 	filename: "cataclysm"
 	group: ""
-	icon: "cataclysm:frosted_stone_bricks"
+	hide_quest_until_deps_complete: true
+	icon: "cataclysm:the_incinerator"
 	id: "1658A27E4A16550E"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"Эти структуры не отмечены ни на одной карте."
-			"Кто-то строил их задолго до тебя."
-			"Атлас Катастроф содержит всё, что удалось собрать об этих местах."
-		]
-		id: "1125C3BAEB7A79FE"
-		rewards: [{
-			id: "5845D27A27E45419"
-			item: {
-				Count: 1
-				id: "patchouli:guide_book"
-				tag: {
-					"patchouli:book": "simulation:cataclysm_guide"
+	quests: [
+		{
+			description: [
+				"Отыщи одно из древних логовищ — и в награду получишь нечто большее, чем ожидал."
+				"Атлас Катастроф — сборник сведений о величайших угрозах этого мира."
+				"Открой его, чтобы узнать, какие легенды скрываются за стенами забытых крепостей."
+			]
+			id: "1125C3BAEB7A79FE"
+			invisible: true
+			rewards: [{
+				id: "5845D27A27E45419"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "simulation:cataclysm_guide"
+					}
 				}
-			}
-			type: "item"
-		}]
-		tasks: [
-			{
-				advancement: "cataclysm:find_burning_arena"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/root"
 				criterion: ""
+				icon: "cataclysm:the_incinerator"
 				id: "550544556AA07F4D"
 				type: "advancement"
-			}
-			{
-				advancement: "cataclysm:find_soul_black_smith"
+			}]
+			title: "Охота на легенды"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "legendary_monsters:portal_shard"
+			id: "22B4795038555D0C"
+			rewards: [{
+				id: "501EC835C01264C6"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/legendary/kill_obliterator"
 				criterion: ""
-				id: "293D32BF83B66D47"
+				id: "25BE6A265E1FE398"
 				type: "advancement"
+			}]
+			title: "Последняя аннигиляция"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:soul_great_sword"
+				tag: {
+					Damage: 0
+				}
 			}
-			{
-				advancement: "cataclysm:find_cursed_pyramid"
+			id: "68386F58B45E1B0B"
+			rewards: [{
+				id: "022B225CC4D7F139"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/legendary/kill_possessed_paladin"
 				criterion: ""
-				id: "0217292D3B2C4292"
+				id: "319901FB00083D7B"
 				type: "advancement"
-			}
-			{
-				advancement: "cataclysm:find_sunken_city"
+			}]
+			title: "Паладин под чужой волей"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "cataclysm:remnant_skull"
+			id: "40B0B64D1067F728"
+			rewards: [{
+				id: "6B4D410D34F3A882"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/cataclysm/kill_remnant"
 				criterion: ""
-				id: "55F5ED6FB33D3A25"
+				id: "0DF40CE03E0AE60D"
 				type: "advancement"
-			}
-			{
-				advancement: "cataclysm:find_frosted_prison"
+			}]
+			title: "Память песков"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "cataclysm:bulwark_of_the_flame"
+			id: "4A15927C151A26F4"
+			rewards: [{
+				id: "2C9720A3E1113496"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/cataclysm/kill_ignis"
 				criterion: ""
-				id: "1D0214E2A7BBEB60"
+				id: "0A6126869CC6FDA0"
 				type: "advancement"
-			}
-			{
-				advancement: "cataclysm:find_acropolis"
+			}]
+			title: "Пламя стража"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "cataclysm:infernal_forge"
+			id: "6E3C092E51C05E6E"
+			rewards: [{
+				id: "11CFE90EF72AA131"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/cataclysm/kill_monstrosity"
 				criterion: ""
-				id: "7D47522EFE61B73A"
+				id: "62C59E59022EA3F9"
 				type: "advancement"
-			}
-			{
-				advancement: "cataclysm:find_ancient_factory"
+			}]
+			title: "Монстр из незерита"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "cataclysm:gauntlet_of_guard"
+			id: "70C17F25CE3F6B70"
+			rewards: [{
+				id: "142365008AC3C45B"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/cataclysm/kill_ender_guardian"
 				criterion: ""
-				id: "20B361D97AABFA10"
+				id: "2FADC406778393F0"
 				type: "advancement"
-			}
-			{
-				advancement: "cataclysm:find_ruined_citadel"
+			}]
+			title: "Страж цитадели"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "cataclysm:tidal_claws"
+			id: "7E34B99E989E4646"
+			rewards: [{
+				id: "2669B8A2DC12DB43"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/cataclysm/kill_leviathan"
 				criterion: ""
-				id: "29BF41C202CD7DDC"
+				id: "1B813D6CB2B38C1F"
 				type: "advancement"
+			}]
+			title: "Бездна ответила"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "cataclysm:essence_of_the_storm"
+			id: "574FC63E625CCA69"
+			rewards: [{
+				id: "430F9B30436A26DC"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/cataclysm/kill_scylla"
+				criterion: ""
+				id: "53DA7AAE58786456"
+				type: "advancement"
+			}]
+			title: "Глас бури"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "cataclysm:witherite_ingot"
+			id: "6586143763FD8FAE"
+			rewards: [{
+				id: "162A4F71B14B1EA7"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/cataclysm/kill_harbinger"
+				criterion: ""
+				id: "031C9CC8297A4C2D"
+				type: "advancement"
+			}]
+			title: "Машина пробудилась"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "cataclysm:cursed_tombstone"
+			id: "1CE967A5E467785C"
+			rewards: [{
+				id: "7EA951D7F4AF3932"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/cataclysm/kill_maledictus"
+				criterion: ""
+				id: "19E5FBCFCBE70F40"
+				type: "advancement"
+			}]
+			title: "Проклятие снято"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "alexscaves:tectonic_shard"
+			id: "5A2F058A98A0FB7F"
+			rewards: [{
+				id: "6D0139299D3694D5"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/alexscaves/kill_luxtructosaurus"
+				criterion: ""
+				id: "0A25E0741EB3519A"
+				type: "advancement"
+			}]
+			title: "Древнейший хищник"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "alexsmobs:void_worm_beak"
+			id: "13D4CE3C8D2132C5"
+			rewards: [{
+				id: "4F3B6D5A85CB7C8C"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/alexsmobs/void_worm_kill"
+				criterion: ""
+				id: "21F9F69DFA118BE0"
+				type: "advancement"
+			}]
+			title: "Червь Пустоты"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: {
+				Count: 1
+				id: "simulation:heart_shard"
+				tag: {
+					CustomModelData: 900001
+				}
 			}
-		]
-		tasks_required: 1
-		title: "Неизвестные структуры"
-		x: 0.0d
-		y: 0.0d
-	}]
-	title: "Катаклизм"
+			id: "5DE6363F938E6070"
+			rewards: [{
+				id: "4816D7EA128AAFAA"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/illager/kill_invoker"
+				criterion: ""
+				id: "47477CE40409F833"
+				type: "advancement"
+			}]
+			title: "Голос из особняка"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "aquamirae:frozen_key"
+			id: "30C95F7BEE788511"
+			rewards: [{
+				id: "3FB56CC6BEA7C5F3"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "simulation:hunts/aquamirae/kill_captain_cornelia"
+				criterion: ""
+				id: "6DCAED6EF6F32806"
+				type: "advancement"
+			}]
+			title: "Призрак капитана Корнелии"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "minecraft:nether_star"
+			id: "014593607335B7DB"
+			rewards: [{
+				id: "75DD3D2C1B5AEB56"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/kill_wither"
+				criterion: ""
+				id: "6D7DA892066C01DE"
+				type: "advancement"
+			}]
+			title: "Высоты увядания"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1125C3BAEB7A79FE"]
+			description: ["Одна из легенд, вписанных в Атлас Катастроф."]
+			icon: "minecraft:dragon_egg"
+			id: "1C3A64F6BDAA509A"
+			rewards: [{
+				id: "19A98D45DE9E0502"
+				item: "simulation:heart_shard"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "063AA0352DAD53A6"
+				type: "advancement"
+			}]
+			title: "Свобода Края"
+			x: 1.0d
+			y: 8.0d
+		}
+	]
+	title: "Охота на легенды"
 }

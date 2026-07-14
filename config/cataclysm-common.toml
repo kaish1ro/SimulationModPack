@@ -61,7 +61,7 @@
 		[tools_and_abilities.incinerator.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 14.0
+			attack_damage = 11.429
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 1.4
@@ -76,7 +76,7 @@
 		[tools_and_abilities.gauntlet_of_guard.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 11.0
+			attack_damage = 10.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 1.6
@@ -115,7 +115,7 @@
 		[tools_and_abilities.infernal_forge.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 13.0
+			attack_damage = 16.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 1.0
@@ -126,7 +126,7 @@
 		void_forge_cooldown = 100
 		#Void Forge Rune Damage
 		#Range: 0.0 ~ 1000000.0
-		void_forge_rune_damage = 7.0
+		void_forge_rune_damage = 1.9
 
 		[tools_and_abilities.void_forge.tool_config]
 			#Tool attack damage
@@ -139,10 +139,10 @@
 	[tools_and_abilities.brontes]
 		#Brontes Storm Damage
 		#Range: 0.0 ~ 1000000.0
-		brontes_storm_damage = 10.0
+		brontes_storm_damage = 3.25
 		#Brontes Storm Area Damage
 		#Range: 0.0 ~ 1000000.0
-		brontes_storm_area_damage = 1.0
+		brontes_storm_area_damage = 0.33
 
 		[tools_and_abilities.brontes.tool_config]
 			#Tool attack damage
@@ -158,7 +158,7 @@
 		missile_cooldown = 40
 		#Missile Damage
 		#Range: 0.0 ~ 100000.0
-		missile_damage = 16.0
+		missile_damage = 3.5
 		#Howitzer Cooldown
 		#Range: 0 ~ 1000
 		howitzer_cooldown = 100
@@ -169,7 +169,7 @@
 		howitzer_cooldown = 160
 		#VASW Rune Damage
 		#Range: 0.0 ~ 1000000.0
-		vasw_rune_damage = 7.0
+		vasw_rune_damage = 2.3
 
 	[tools_and_abilities.void_core]
 		#Cooldown
@@ -177,7 +177,7 @@
 		void_core_cooldown = 160
 		#Void Core Rune Damage
 		#Range: 0.0 ~ 1000000.0
-		void_core_rune_damage = 7.0
+		void_core_rune_damage = 2.3
 
 	[tools_and_abilities.sandstorm]
 		#Cooldown
@@ -190,12 +190,12 @@
 		soul_render_cooldown = 100
 		#Phantom Halberd Damage
 		#Range: 0.0 ~ 1000000.0
-		phantom_halberd_damage = 12.0
+		phantom_halberd_damage = 3.25
 
 		[tools_and_abilities.soul_render.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 15.0
+			attack_damage = 15.238
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 1.05
@@ -218,7 +218,7 @@
 		[tools_and_abilities.tidal_claws.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 8.0
+			attack_damage = 10.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 1.6
@@ -226,7 +226,7 @@
 	[tools_and_abilities.ceraunus]
 		#Ceraunus Wave Damage
 		#Range: 0.0 ~ 1000000.0
-		ceraunus_wave_damage = 6.0
+		ceraunus_wave_damage = 2.0
 		#Ceraunus Cooldown
 		#Range: 0 ~ 1000000
 		ceraunus_cooldown = 150
@@ -234,7 +234,7 @@
 		[tools_and_abilities.ceraunus.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 16.0
+			attack_damage = 22.857
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 0.7
@@ -242,10 +242,10 @@
 	[tools_and_abilities.astrape]
 		#Astrape Damage
 		#Range: 0.0 ~ 1000000.0
-		astrape_damage = 11.0
+		astrape_damage = 3.6
 		#Astrape Area Damage
 		#Range: 0.0 ~ 1000000.0
-		astrape_area_damage = 2.0
+		astrape_area_damage = 0.65
 		#Astrape Cooldown
 		#Range: 0 ~ 1000000
 		astrape_cooldown = 60
@@ -253,7 +253,7 @@
 		[tools_and_abilities.astrape.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 10.5
+			attack_damage = 11.429
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 1.4
@@ -263,7 +263,7 @@
 		[tools_and_abilities.meat_shredder.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 8.5
+			attack_damage = 11.429
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 1.4
@@ -273,7 +273,7 @@
 		[tools_and_abilities.annihilator.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 8.5
+			attack_damage = 10.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 1.6
@@ -281,27 +281,27 @@
 	[tools_and_abilities.cursed_bow]
 		#Cursed Bow Damage
 		#Range: 0.0 ~ 1000000.0
-		cursed_bow_damage = 8.0
+		cursed_bow_damage = 1.7
 
 	[tools_and_abilities.wrath_of_the_desert]
 		#Wrath Of The Desert Damage
 		#Range: 0.0 ~ 1000000.0
-		wrath_of_the_desert_damage = 7.5
+		wrath_of_the_desert_damage = 2.44
 
 	[tools_and_abilities.laser_gatling]
 		#Laser Damage
 		#Range: 0.0 ~ 1000000.0
-		laser_damage = 7.0
+		laser_damage = 4.5
 
 	[tools_and_abilities.ancient_spear]
 		#SandStorm
 		#Range: 0.0 ~ 1000000.0
-		sand_storm_damage = 6.0
+		sand_storm_damage = 1.3
 
 		[tools_and_abilities.ancient_spear.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1000000.0
-			attack_damage = 9.5
+			attack_damage = 11.429
 			#Tool attack speed
 			#Range: 0.0 ~ 1000000.0
 			attack_speed = 1.4
@@ -343,14 +343,14 @@
 		block_break_z = 15
 		#Void Rune Damage
 		#Range: 0.0 ~ 1000000.0
-		void_rune_damage = 9.0
+		void_rune_damage = 6.75
 		#Enable separate music per boss phase
 		separate_phase_music = true
 
 		[mobs.ender_guardian.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.9
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 1.0
@@ -358,10 +358,10 @@
 		[mobs.ender_guardian.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 22.0
+			damage_cap = 18.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 11.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -385,15 +385,15 @@
 	[mobs.ender_golem]
 		#Void Rune Damage
 		#Range: 0.0 ~ 1000000.0
-		void_rune_damage = 7.0
+		void_rune_damage = 5.6
 
 		[mobs.ender_golem.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.87
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.8
 
 		[mobs.ender_golem.cap_config]
 			#Damage Cap
@@ -438,15 +438,15 @@
 		smash_hp_damage = 0.08
 		#Flame Jet Damage
 		#Range: 0.0 ~ 1000000.0
-		flame_jet_damage = 7.0
+		flame_jet_damage = 5.25
 		#Flare Bomb Damage
 		#Range: 0.0 ~ 1000000.0
-		flare_bomb_damage = 10.0
+		flare_bomb_damage = 7.5
 
 		[mobs.netherite_monstrosity.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.63
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 1.0
@@ -454,10 +454,10 @@
 		[mobs.netherite_monstrosity.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 25.0
+			damage_cap = 20.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 20.0
+			dps_cap = 15.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -483,7 +483,7 @@
 		[mobs.netherite_ministrosity.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.92
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 1.0
@@ -498,7 +498,7 @@
 		[mobs.ignis.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.78
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 1.0
@@ -506,10 +506,10 @@
 		[mobs.ignis.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 17.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 12.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -551,13 +551,13 @@
 		harbinger_life_steal = 5.0
 		#Wither Missile Damage
 		#Range: 0.0 ~ 1000000.0
-		wither_missile_damage = 8.0
+		wither_missile_damage = 6.0
 		#Laser Damage
 		#Range: 0.0 ~ 1000000.0
-		laser_damage = 5.0
+		laser_damage = 3.75
 		#Death Laser Damage
 		#Range: 0.0 ~ 1000000.0
-		death_laser_damage = 5.0
+		death_laser_damage = 3.75
 		#Death Laser HP Damage
 		#Range: 0.0 ~ 1.0
 		death_laser_hp_damage = 0.05
@@ -568,7 +568,7 @@
 		[mobs.harbinger.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.77
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 1.0
@@ -576,10 +576,10 @@
 		[mobs.harbinger.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 22.0
+			damage_cap = 18.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 12.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -606,10 +606,10 @@
 		range_cap = 15.0
 		#Wither Homing Missile
 		#Range: 0.0 ~ 1000000.0
-		homing_missile = 5.0
+		homing_missile = 4.0
 		#Death Laser Damage
 		#Range: 0.0 ~ 1000000.0
-		death_laser_damage = 5.0
+		death_laser_damage = 4.0
 		#Death Laser HP Damage
 		#Range: 0.0 ~ 1.0
 		death_laser_hp_damage = 0.05
@@ -617,26 +617,26 @@
 		[mobs.prowler.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.88
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.8
 
 	[mobs.amethyst_crab]
 		#Earth Quake Damage
 		#Range: 0.0 ~ 1000000.0
-		earth_quake_damage = 5.0
+		earth_quake_damage = 4.0
 		#Amethyst Cluster Damage
 		#Range: 0.0 ~ 1000000.0
-		amethyst_cluster_damage = 12.0
+		amethyst_cluster_damage = 9.6
 
 		[mobs.amethyst_crab.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.8
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.8
 
 	[mobs.leviathan]
 		#Bite Hp Damage
@@ -653,16 +653,16 @@
 		tentacle_hp_damage = 0.06
 		#Dimensional Rift Damage
 		#Range: 0.0 ~ 1000000.0
-		dimensional_rift_damage = 10.0
+		dimensional_rift_damage = 7.5
 		#Abyss Blast Damage
 		#Range: 0.0 ~ 1000000.0
-		abyss_blast_damage = 10.0
+		abyss_blast_damage = 7.5
 		#Abyss Blast HP Damage
 		#Range: 0.0 ~ 1.0
 		abyss_blast_hp_damage = 0.1
 		#Abyss Orb Damage
 		#Range: 0.0 ~ 1000000.0
-		abyss_orb_damage = 4.0
+		abyss_orb_damage = 3.0
 		#Leviathan Immune Out of Water.
 		immune_out_of_water = true
 		#Enable separate music per boss phase
@@ -675,7 +675,7 @@
 		[mobs.leviathan.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.8
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 1.0
@@ -683,10 +683,10 @@
 		[mobs.leviathan.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 17.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 15.0
+			dps_cap = 11.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -704,10 +704,10 @@
 		[mobs.baby_leviathan.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.92
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.85
 
 	[mobs.ancient_remnant]
 		#Charge Hp Damage
@@ -721,15 +721,15 @@
 		stomp_hp_damage = 0.03
 		#EarthQuake Damage
 		#Range: 0.0 ~ 1000000.0
-		earthquake_damage = 11.0
+		earthquake_damage = 8.25
 		#Ancient Desert Stele Damage
 		#Range: 0.0 ~ 1000000.0
-		ancient_desert_stele_damage = 11.0
+		ancient_desert_stele_damage = 8.25
 
 		[mobs.ancient_remnant.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.78
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 1.0
@@ -737,10 +737,10 @@
 		[mobs.ancient_remnant.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 18.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 12.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -766,10 +766,10 @@
 		[mobs.modern_remnant.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.87
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.85
 
 	[mobs.koboleton]
 		#CauseKoboletontoDropItemInHandPercent
@@ -781,10 +781,10 @@
 		[mobs.kobolediator.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.83
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.8
 
 		[mobs.kobolediator.ignore_mobgriefing_config]
 			#Ignore MobGriefing
@@ -793,23 +793,23 @@
 	[mobs.wadjet]
 		#Sandstorm Damage
 		#Range: 0.0 ~ 1000000.0
-		sandstorm_damage = 6.0
+		sandstorm_damage = 4.8
 		#Ancient Desert Stele Damage
 		#Range: 0.0 ~ 1000000.0
-		ancient_desert_stele_damage = 11.0
+		ancient_desert_stele_damage = 8.8
 
 		[mobs.wadjet.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.87
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.8
 
 	[mobs.maledictus]
 		#Phantom Halberd Damage
 		#Range: 0.0 ~ 1000000.0
-		phantom_halberd_damage = 11.0
+		phantom_halberd_damage = 8.25
 		#Hp Damage
 		#Range: 0.0 ~ 1.0
 		hp_damage = 0.05
@@ -827,12 +827,12 @@
 		smash_hp_damage = 0.08
 		#Phantom Arrow Damage
 		#Range: 0.0 ~ 1000000.0
-		phantom_arrow_damage = 5.0
+		phantom_arrow_damage = 3.75
 
 		[mobs.maledictus.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.76
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 1.0
@@ -840,10 +840,10 @@
 		[mobs.maledictus.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 17.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 11.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -863,15 +863,15 @@
 	[mobs.aptrgangr]
 		#Axe Blade Damage
 		#Range: 0.0 ~ 1000000.0
-		axe_blade_damage = 8.0
+		axe_blade_damage = 6.4
 
 		[mobs.aptrgangr.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.88
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.8
 
 		[mobs.aptrgangr.nature_heal_config]
 			#Nature Heal
@@ -881,19 +881,19 @@
 	[mobs.scylla]
 		#Spear Damage
 		#Range: 0.0 ~ 1000000.0
-		spear_damage = 14.0
+		spear_damage = 10.5
 		#Lightning Storm Damage
 		#Range: 0.0 ~ 1000000.0
-		lightning_storm_damage = 10.0
+		lightning_storm_damage = 7.5
 		#Lightning Area Damage
 		#Range: 0.0 ~ 1000000.0
-		lightning_area_damage = 4.0
+		lightning_area_damage = 3.0
 		#Snake Damage
 		#Range: 0.0 ~ 1000000.0
-		snake_damage = 16.0
+		snake_damage = 12.0
 		#Anchor Damage
 		#Range: 0.0 ~ 1000000.0
-		anchor_damage = 16.0
+		anchor_damage = 12.0
 		#Weather Change
 		weather_change = true
 		#Hp Damage
@@ -909,7 +909,7 @@
 		[mobs.scylla.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.77
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 1.0
@@ -917,10 +917,10 @@
 		[mobs.scylla.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 18.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 10.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -946,18 +946,18 @@
 		[mobs.clawdian.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.76
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.85
 
 		[mobs.clawdian.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 18.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 12.0
+			dps_cap = 10.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20

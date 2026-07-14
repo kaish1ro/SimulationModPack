@@ -1,5 +1,9 @@
 // Убираем рецепты Scaling Health, сердца и запрещённые рецепты Cyclic
 ServerEvents.recipes(event => {
+  event.remove({ mod: 'undead_revamp2' })
+  event.remove({ mod: 'sons_of_sins' })
+  event.remove({ mod: 'midnight_madness' })
+
   // Scaling Health — все рецепты
   event.remove({ mod: 'scalinghealth' })
 

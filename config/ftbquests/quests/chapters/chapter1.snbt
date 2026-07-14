@@ -28,15 +28,20 @@
 		{
 			dependencies: ["0000000000001002"]
 			description: [
-				"Верстак — первый шаг к управлению миром."
-				"Примитивно. Но функционально."
+				"Верстак готов. Теперь создай свой первый инструмент."
+				"Дерево ненадёжно. Но его хватит, чтобы добраться до камня."
 			]
 			id: "0000000000001004"
 			tasks: [{
-				advancement: "minecraft:story/craft_workbench"
-				criterion: ""
 				id: "0000000000001003"
-				type: "advancement"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			title: "Первый инструмент"
 			x: 2.0d
@@ -77,8 +82,8 @@
 		{
 			dependencies: ["0000000000001008"]
 			description: [
-				"Мир не останавливается, когда темнеет."
-				"Выживи. Это условие первого теста."
+				"Темнота повышает риск."
+				"Подготовь укрытие и проспи свою первую ночь."
 			]
 			id: "000000000000100D"
 			rewards: [
@@ -102,8 +107,9 @@
 				}
 			]
 			tasks: [{
-				advancement: "minecraft:story/sleep_in_bed"
+				advancement: "simulation:adventure/vanilla/sleep_in_bed"
 				criterion: ""
+				icon: "minecraft:red_bed"
 				id: "0000000000001009"
 				type: "advancement"
 			}]

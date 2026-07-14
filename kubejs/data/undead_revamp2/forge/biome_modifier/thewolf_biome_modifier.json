@@ -1,8 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "minecraft:the_void",
   "spawners": {
     "type": "undead_revamp2:thewolf",
     "weight": 4,

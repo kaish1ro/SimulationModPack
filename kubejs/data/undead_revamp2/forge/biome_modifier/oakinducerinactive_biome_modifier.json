@@ -1,8 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "minecraft:the_void",
   "features": "undead_revamp2:oakinducerinactive",
   "step": "underground_ores",
   "conditions": [
