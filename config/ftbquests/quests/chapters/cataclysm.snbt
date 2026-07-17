@@ -29,7 +29,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "simulation:hunts/root"
+				advancement: "simulation:adventure/vanilla/kill_a_mob"
 				criterion: ""
 				icon: "cataclysm:the_incinerator"
 				id: "550544556AA07F4D"
